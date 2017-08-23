@@ -1,0 +1,33 @@
+.models {
+  padding-bottom: 10px;
+}
+.model {
+  width: 24%;
+  padding-top: 10px;
+  position: relative;
+  filter: grayscale(100%);
+  &__imgprev {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  &__name {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $head-font;
+    background-color: rgba(57, 57, 57, 0.73);
+    color: $light-color;
+  }
+  &:hover {
+    filter: grayscale(0%);
+    transition: all 0.1s ease-in;
+  }
+}

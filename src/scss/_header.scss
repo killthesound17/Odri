@@ -1,0 +1,55 @@
+header {
+  background-color: rgba(204, 202, 202, 0.5)
+}
+
+.odri-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.navigation {
+
+  width: 100%;
+  &__link {
+    text-decoration: none;
+    font-family: $odri-font;
+    color: #454545;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+  &__heading {
+        text-align: right;
+        margin-top: 10px;
+        margin-bottom: 15px;
+  }
+}
+
+.odri-nav {
+  padding-top: 10px;
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  &__list-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    color: black;
+    &:hover {
+      color: rgb(188, 0, 255);
+    }
+    &:active {
+      transition: all 0.5s ease-in;
+    }
+  }
+}

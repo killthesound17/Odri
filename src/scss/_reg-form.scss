@@ -1,0 +1,32 @@
+.model-reg {
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-reg {
+  width: 35%;
+
+}
+
+.form-reg {
+  width: 60%;
+}
+.reg-form {
+
+}
+.field-flex {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+fieldset {
+  width: 100%;
+}
+.reg-field {
+  width: 100%;
+  --half {
+    width: 50%;
+  }
+}

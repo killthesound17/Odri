@@ -1,0 +1,88 @@
+.mainpage {
+    animation: emersion 1.5s ease-in;
+}
+
+.odrimainpage {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainPageLeft {
+    height: 100%;
+    width: 45%;
+
+
+    &__img {
+        height: 100%;
+        display: block;
+        text-align: right;
+
+    }
+}
+
+.mainPageRight {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    &__upper {
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    &__ulink {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        color: #454545;
+        font-family: $odri-font;
+        font-size: 2.2em;
+        padding: 3px;
+
+
+        &:hover {
+
+            background: linear-gradient(to right, #454545 20%, #894fa1 40%, #cc7ff0 60%, #454545 80%);
+            background-size: 200% auto;
+            color: #000;
+            background-clip: text;
+            text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine 5s linear infinite;
+            @keyframes shine {
+                to {
+                    background-position: 200% center;
+                }
+            }
+        }
+    }
+
+    &__uheading {
+
+    }
+
+    &__lower {
+        height: 45%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__link {
+        display: block;
+        margin: auto 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: $head-font;
+        color: #858585;
+
+        // margin: auto;
+        // text-align: right;
+    }
+}

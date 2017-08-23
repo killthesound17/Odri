@@ -1,0 +1,66 @@
+.model-profile {
+  padding: 35px 0;
+  display: flex;
+
+}
+
+.model-info {
+  width: 30%;
+  &__name {
+    font-family: $head-font;
+    text-transform: uppercase;
+  }
+}
+
+.model-photos {
+  width: 70%;
+  text-align: right;
+}
+
+.photos-fullsize {
+      width: 100%;
+  &__photo {
+
+  }
+}
+
+.slick-arrow {
+  display: none;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.model-options {
+  width: 70%;
+  font-family: $head-font;
+  text-transform: uppercase;
+  font-weight: 400;
+  &__option {
+    padding: 20px 0;
+    width: 80%;
+    border-bottom: 1px solid lightgray;
+    box-sizing: border-box;
+  }
+}
+.option-values {
+  width: 30%;
+  font-family: $head-font;
+  text-transform: uppercase;
+  font-weight: 400;
+  &__value {
+    padding: 20px 0;
+    border-bottom: 1px solid transparent;
+  }
+}
+
+.photos-fullsize img {
+  filter: grayscale(100%);
+}
+.photos-fullsize img:hover {
+  filter: grayscale(0%);
+  transition: all 0.1s ease-in;
+}

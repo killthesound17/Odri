@@ -1,0 +1,84 @@
+footer {
+  background-color: #454545;
+}
+.odri-footer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.aboutus {
+  width: 50%;
+  &__odri-heading {
+    font-family: $odri-font;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+  }
+  &__list-item {
+    margin-top: 5px;
+  }
+  &__list-link {
+    font-family: $head-font;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+
+  }
+}
+.contactus {
+  width: 50%;
+    text-align: right;
+    &__text {
+      font-family: $head-font;
+      font-size: 14px;
+        color: white;
+        font-weight: 300;
+            text-transform: uppercase;
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 5px;
+    }
+}
+.socialmedia {
+text-align: right;
+  &__link {
+    margin-left: 10px;
+    font-size: 24px;
+    color: white;
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}
+
+
+.subscribeform {
+  display: block;
+  input[type="email"]{
+    width: 50%;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: $head-font;
+    font-weight: 300;
+    color: white;
+  }
+  input[type="submit"]
+  {
+    background: none;
+border: none;
+text-transform: uppercase;
+font-family: $head-font;
+border: 1px solid #e9e9e9;
+background-color: #e9e9e9;
+padding: 5px 20px;
+color: $hover-color;
+border-radius: 5px;
+font-weight: 300;
+  }
+}

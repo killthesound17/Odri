@@ -1,0 +1,35 @@
+$odri-font: 'Rochester', cursive;
+$rouge-font: 'Rouge Script', cursive;
+$head-font: 'Raleway', sans-serif;
+$text-font: 'Roboto', sans-serif;
+$hover-color: rgb(188, 0, 255);
+$light-color: rgb(224, 147, 255);
+
+main {
+
+
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+}
+*:focus {
+outline: none;
+}
+
+button,a {
+  cursor: pointer;
+}
+@keyframes emersion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+
+}
