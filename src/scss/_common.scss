@@ -5,6 +5,12 @@ $text-font: 'Roboto', sans-serif;
 $hover-color: rgb(188, 0, 255);
 $light-color: rgb(224, 147, 255);
 
+body {
+  background-image: url('../img/bgr-pic.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 main {
 
 

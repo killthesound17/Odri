@@ -1,4 +1,4 @@
-
+$(document).ready(function () {
 
 
 var $grid = $('.models').isotope({
@@ -74,4 +74,5 @@ $('.photos-fullsize').slick({
 });
 $(window).load(function(){
     $(".photos-fullsize").fadeIn();
+});
 });

@@ -1,3 +1,9 @@
+body {
+  background-image: url("../img/bgr-pic.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -75,9 +81,6 @@ button, a {
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     color: #858585; }
-
-header {
-  background-color: rgba(204, 202, 202, 0.5); }
 
 .odri-header {
   display: flex;
@@ -158,8 +161,7 @@ header {
     background-color: rgba(57, 57, 57, 0.73);
     color: #e093ff; }
   .model:hover {
-    filter: grayscale(0%);
-    transition: all 0.1s ease-in; }
+    filter: grayscale(0%); }
 
 footer {
   background-color: #454545; }
@@ -282,8 +284,7 @@ footer {
   filter: grayscale(100%); }
 
 .photos-fullsize img:hover {
-  filter: grayscale(0%);
-  transition: all 0.1s ease-in; }
+  filter: grayscale(0%); }
 
 .slider-section {
   width: 100%;
@@ -322,25 +323,73 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px; }
 
 .text-reg {
   width: 35%; }
+  .text-reg__heading {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #454545; }
+  .text-reg__text {
+    font-family: "Roboto", sans-serif;
+    color: #454545;
+    font-weight: 300;
+    padding: 10px 0; }
 
 .form-reg {
   width: 60%; }
 
-.field-flex {
+.form-reg input {
   width: 100%;
-  display: flex;
-  flex-direction: row; }
+  padding: 7px;
+  border: 1px solid #939393;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .form-reg input:hover {
+    background-color: rgba(218, 95, 250, 0.2); }
+  .form-reg input:focuss {
+    background-color: rgba(218, 95, 250, 0.2); }
 
-fieldset {
+.form-reg input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #454545; }
+
+.reg-form__heading {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #454545; }
+
+input[type="radio"] {
+  width: 10%; }
+
+.field-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%; }
 
 .reg-field {
-  width: 100%; }
-  .reg-field --half {
-    width: 50%; }
+  width: 100%;
+  margin: 5px 0; }
+  .reg-field__label {
+    font-family: "Roboto", sans-serif;
+    text-transform: lowercase;
+    font-weight: 300;
+    font-style: italic;
+    color: #rgb 172, 172, 172; }
+  .reg-field--half {
+    width: 45%; }
+  .reg-field--quarter {
+    width: 20%; }
+  .reg-field--third {
+    width: 30%; }
 
 /*# sourceMappingURL=main.css.map */

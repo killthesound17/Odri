@@ -4,29 +4,85 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 .text-reg {
   width: 35%;
-
+  &__heading {
+    font-family: $head-font;
+    text-transform: uppercase;
+    color: #454545;
+  }
+  &__text {
+    font-family: $text-font;
+    color: #454545;
+    font-weight: 300;
+    padding: 10px 0;
+  }
 }
 
 .form-reg {
   width: 60%;
 }
-.reg-form {
-
-}
-.field-flex {
+.form-reg input {
   width: 100%;
-  display: flex;
-  flex-direction: row;
+  padding: 7px;
+  border: 1px solid #939393;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  &:hover {
+    background-color: rgba(218, 95, 250, 0.2);
+  }
+  &:focuss {
+    background-color: rgba(218, 95, 250, 0.2);
+  }
 }
-fieldset {
+.form-reg input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin-top: 15px;
+  font-family: $text-font;
+  text-transform: uppercase;
+  color:#454545;
+}
+.reg-form {
+  &__heading {
+    font-family: $head-font;
+    text-transform: uppercase;
+    color: #454545;
+  }
+}
+input[type="radio"] {
+  width: 10%;
+}
+
+.field-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
 }
 .reg-field {
-  width: 100%;
-  --half {
-    width: 50%;
-  }
+
+width: 100%;
+    margin: 5px 0;
+    &__label {
+    font-family: $text-font;
+    text-transform: lowercase;
+    font-weight: 300;
+    font-style: italic;
+    color: #rgb(172, 172, 172)
+    }
+&--half {
+  width: 45%;
+}
+&--quarter {
+  width: 20%;
+}
+&--third {
+  width: 30%;
+}
+
 }
