@@ -1,0 +1,51 @@
+.contact-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  width: 45%;
+  &__heading {
+    font-family: $head-font;
+    text-transform: uppercase;
+    color:#454545;
+    &--mod {
+      margin-top: 50px;
+    }
+  }
+  &__list-item {
+    font-family: $text-font;
+    font-weight: 300;
+    font-style: italic;
+    color: #454545;
+  }
+  &__list-item i {
+    font-size: 1.6em;
+    color: #454545;
+  }
+  &__link {
+    text-decoration: none;
+    color: #454545;
+  }
+}
+.contact-map {
+  width: 50%;
+  &__heading {
+    font-family: $head-font;
+    text-transform: uppercase;
+    color:#454545;
+  }
+}
+#map-main {
+  width: 100%;
+  height: 50vh;
+  filter: grayscale(100%);
+  transition: filter 0.4s ease;
+  &:hover {
+    filter: grayscale(0%);
+    transition: filter 0.4s ease-in;
+  }
+}

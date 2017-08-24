@@ -51,6 +51,14 @@ text-align: right;
     &:hover {
       color: $hover-color;
     }
+    &--mod {
+      color: #454545;
+    }
+  }
+  &--mod {
+    color: #454545;
+    text-align:left;
+    margin-right: 10px;
   }
 }
 
