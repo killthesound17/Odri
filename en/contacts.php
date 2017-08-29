@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400|Rochester|Roboto:300,300i,400|Rouge+Script" rel="stylesheet">
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/slick.css">
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../src/css/normalize.css">
+  <link rel="stylesheet" href="../src/css/slick.css">
+  <link rel="stylesheet" href="../src/css/main.css">
   <script src="https://use.fontawesome.com/e059081491.js"></script>
   <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
@@ -16,7 +16,7 @@
 </head>
 <body>
   <header>
-      <?php include 'header.html' ?>
+      <?php include 'en-header.html' ?>
   </header>
 
   <main>
@@ -50,16 +50,16 @@
   </main>
 
   <footer>
-    <?php include 'footer.html' ?>
+    <?php include 'en-footer.php' ?>
   </footer>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzEm15-1x81gZ9FcYraaVZdEEfW65rOMI&callback=initMap" defer></script>
-  <script type="text/javascript" src="../js/slick.min.js">
+  <script type="text/javascript" src="../src/js/slick.min.js">
   </script>
   <script src="https://use.fontawesome.com/e059081491.js"></script>
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script type="text/javascript" src="https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.min.js">
   </script>
-  <script type="text/javascript" src="../js/map.js">
+  <script type="text/javascript" src="../src/js/map.js">
 
   </script>
 </body>

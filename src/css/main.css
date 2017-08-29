@@ -1,6 +1,12 @@
 body {
   background-image: url("../img/bgr-pic.jpg");
-  background-size: cover; }
+  background-size: cover;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1; }
 
 .container {
   width: 100%;
@@ -82,55 +88,79 @@ button, a {
 
 .odri-header {
   display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  justify-content: space-between; }
 
 .navigation {
+  position: relative;
   width: 100%; }
+  .navigation__logo {
+    width: 100%;
+    height: 60px;
+    padding-top: 5px; }
   .navigation__link {
     text-decoration: none;
     font-family: "Rochester", cursive;
     color: #454545;
-    font-size: 1.3em;
-    line-height: 1.5em;
-    margin-top: 10px;
-    margin-bottom: 10px; }
+    font-size: 1.3em; }
   .navigation__heading {
     text-align: right;
-    margin-top: 10px;
-    margin-bottom: 15px; }
+    margin: 0; }
 
-.odri-nav {
-  padding-top: 10px; }
-  .odri-nav__list {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-between;
-    font-size: 18px; }
-  .odri-nav__list-link {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Raleway';
-    color: black; }
-    .odri-nav__list-link:hover {
-      color: #bc00ff; }
-    .odri-nav__list-link:active {
-      transition: all 0.5s ease-in; }
+.odri-nav__list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 18px; }
+.odri-nav__list-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  color: black;
+  border: 1px solid transparent;
+  padding: 5px 15px; }
+  .odri-nav__list-link:hover {
+    color: #bc00ff;
+    border: 1px solid #bc00ff;
+    padding: 5px 15px;
+    border-radius: 3px; }
+  .odri-nav__list-link:active {
+    transition: all 0.5s ease-in; }
 
+.fixed-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.85);
+  animation: headerreveal 1s ease-in; }
+
+@keyframes headerreveal {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 .model-filter {
   width: 30%;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 15px;
+  margin: 15px auto 0;
   display: flex;
   justify-content: space-around; }
   .model-filter__item {
     text-decoration: none;
     border: none;
     background: none;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Raleway", sans-serif;
+    border: 1px solid transparent;
+    padding: 5px 15px; }
+    .model-filter__item--active {
+      color: #bc00ff;
+      border: 1px solid #bc00ff;
+      padding: 5px 15px;
+      border-radius: 3px; }
 
 .models {
   padding-bottom: 10px; }
@@ -171,12 +201,19 @@ footer {
   padding-bottom: 25px; }
 
 .aboutus {
-  width: 50%; }
+  width: 60%;
+  display: flex;
+  flex-direction: row; }
   .aboutus__odri-heading {
+    width: 50%;
     font-family: "Rochester", cursive;
     color: white;
     font-size: 24px;
     margin: 0; }
+  .aboutus__list {
+    width: 30%;
+    display: flex;
+    justify-content: space-around; }
   .aboutus__list-item {
     margin-top: 5px; }
   .aboutus__list-link {

@@ -9,12 +9,17 @@ body {
   background-image: url('../img/bgr-pic.jpg');
 
   background-size: cover;
+  display: flex;
+ min-height: 100vh;
+ flex-direction: column;
 
 }
+
 main {
-
+  flex: 1;
 
 }
+
 .container {
   width: 100%;
   max-width: 1200px;

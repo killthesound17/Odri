@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400|Rochester|Roboto:300,300i,400|Rouge+Script" rel="stylesheet">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/slick.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../src/css/normalize.css">
+    <link rel="stylesheet" href="../src/css/slick.css">
+    <link rel="stylesheet" href="../src/css/main.css">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
     <title>Become a Model - ODRI Model Management</title>
@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <?php include 'header.html' ?>
+        <?php include 'en-header.html' ?>
     </header>
 
 
@@ -98,7 +98,7 @@
                         </div>
                           <div class="reg-field">
                             <label class="reg-field__label" for="photos">Select up to 5 images (max size 2 MB each)</label><br>
-                            <input type="file" id="photos" name="" value="">
+                            <input type="file" id="photos" name="" value="" multiple accept="image/png, image/jpeg" required>
                           </div>
                       </div>
 
@@ -110,15 +110,12 @@
 
     </main>
     <footer>
-        <?php include 'footer.html' ?>
+        <?php include 'en-footer.php' ?>
     </footer>
-    <script type="text/javascript" src="../js/slick.min.js">
-    </script>
+
     <script src="https://use.fontawesome.com/e059081491.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.min.js">
-    </script>
-    <script type="text/javascript" src="../js/main.js"></script>
+
+    <script type="text/javascript" src="../src/js/main.js"></script>
 </body>
 
 </html>
