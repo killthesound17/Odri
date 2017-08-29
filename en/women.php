@@ -93,6 +93,6 @@
     include 'en-footer.php' ?>
   </footer>
     <script src="https://use.fontawesome.com/e059081491.js"></script>
-<script type="text/javascript" src="../src/js/main.js"></script>
+<script type="text/javascript" src="../src/js/isotope.js"></script>
 </body>
 </html>

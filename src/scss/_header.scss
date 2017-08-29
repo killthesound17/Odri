@@ -15,6 +15,9 @@ header {
         width: 100%;
         height: 60px;
         padding-top: 5px;
+        @media (max-width: 599px) {
+        width: 70%;
+        }
     }
     &__link {
         text-decoration: none;
@@ -22,20 +25,26 @@ header {
         color: #454545;
         font-size: 1.3em;
         // line-height: 1.5em;
-
-
+        @media (max-width: 599px) {
+        font-size: 0.7em;
+        }
     }
-
     &__heading {
         text-align: right;
         margin: 0;
+        @media (max-width: 599px) {
+        text-align: left;
+        }
 
+    }
+    @media (max-width: 599px) {
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
     }
 }
 
 .odri-nav {
-
-
     &__list {
         display: flex;
         flex-direction: row;
@@ -62,6 +71,10 @@ border-radius: 3px;
         &:active {
             transition: all 0.5s ease-in;
         }
+    }
+    @media (max-width: 599px) {
+    width: 30%;
+    overflow: hidden;
     }
 }
 

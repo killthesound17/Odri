@@ -1,11 +1,13 @@
 .model-reg {
-
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 35px;
   padding-bottom: 35px;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 }
 .text-reg {
   width: 35%;
@@ -20,10 +22,26 @@
     font-weight: 300;
     padding: 10px 0;
   }
+  @media (max-width: 900px) {
+    width: 80%;
+    margin: 0 auto;
+  }
+  @media (max-width: 599px) {
+    width: 95%;
+    margin: 0 auto;
+  }
 }
 
 .form-reg {
   width: 60%;
+  @media (max-width: 900px) {
+    width: 80%;
+    margin: 0 auto;
+  }
+  @media (max-width: 599px) {
+    width: 95%;
+    margin: 0 auto;
+  }
 }
 .form-reg input {
   width: 100%;
@@ -63,6 +81,9 @@ input[type="radio"] {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  @media (max-width: 599px) {
+
+  }
 }
 .reg-field {
 
@@ -77,6 +98,9 @@ width: 100%;
     }
 &--half {
   width: 45%;
+  @media (max-width: 599px) {
+width: 100%;
+  }
 }
 &--quarter {
   width: 20%;
