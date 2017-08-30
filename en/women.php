@@ -24,6 +24,7 @@
 
 
   <main>
+    <!-- <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка</small></div></div> -->
 
 
 <div class="container">
@@ -61,6 +62,12 @@
     <?php
     include 'en-footer.php' ?>
   </footer>
+  <script type="text/javascript">$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(500).fadeOut('slow');
+});</script>
     <script src="https://use.fontawesome.com/e059081491.js"></script>
 <script type="text/javascript" src="../src/js/isotope.js"></script>
 </body>

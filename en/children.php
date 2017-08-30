@@ -38,7 +38,7 @@
 <section class="models">
   <div class="model a-j">
     <img src="../src/img/children/Aleksandra/IMG_9864.jpg" alt="" class="model__imgprev">
-    <a href="model_info.php" class="model__name">Aleksandra</a>
+    <a href="children_info_aleksandra.php" class="model__name">Aleksandra</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/AnastasiiaN/IMG_9726.jpg" alt="" class="model__imgprev">
