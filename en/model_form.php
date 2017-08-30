@@ -35,7 +35,7 @@
                         amet! Vitae minima sit nesciunt, rerum officiis? Commodi, illum!</p>
                 </div>
                 <div class="form-reg">
-                    <form action="" class="reg-form">
+                    <form action="../src/php/send.php" class="reg-form" enctype="multipart/form-data" method="post">
                         <h2 class="reg-form__heading">Contact Info</h2>
                         <div class="field-flex">
                             <div class="reg-field reg-field--half">
