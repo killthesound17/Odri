@@ -1,7 +1,7 @@
 .model-profile {
   padding: 35px 0;
   display: flex;
-
+  justify-content: space-between;
 }
 
 .model-info {
@@ -13,7 +13,7 @@
 }
 
 .model-photos {
-  width: 70%;
+  width: 60%;
   text-align: right;
 }
 

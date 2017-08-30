@@ -299,7 +299,8 @@ footer {
 
 .model-profile {
   padding: 35px 0;
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
 
 .model-info {
   width: 30%; }
@@ -308,7 +309,7 @@ footer {
     text-transform: uppercase; }
 
 .model-photos {
-  width: 70%;
+  width: 60%;
   text-align: right; }
 
 .photos-fullsize {
