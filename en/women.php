@@ -17,6 +17,11 @@
   <title>WOMEN - ODRI Model Management</title>
 </head>
 <body>
+  <div id="p_prldr">
+    <div class="contpre">
+      <span class="svg_anm"></span><br>Please, wait<br><small>Loading...</small>
+    </div>
+  </div>
   <header>
       <?php
       include 'en-header.html' ?>
@@ -24,7 +29,7 @@
 
 
   <main>
-    <!-- <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка</small></div></div> -->
+
 
 
 <div class="container">
@@ -66,7 +71,7 @@
     var $preloader = $('#p_prldr'),
         $svg_anm   = $preloader.find('.svg_anm');
     $svg_anm.fadeOut();
-    $preloader.delay(500).fadeOut('slow');
+    $preloader.delay(750).fadeOut('slow');
 });</script>
     <script src="https://use.fontawesome.com/e059081491.js"></script>
 <script type="text/javascript" src="../src/js/isotope.js"></script>

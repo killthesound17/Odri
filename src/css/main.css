@@ -14,7 +14,7 @@ main {
   top: 0;
   right: 0;
   bottom: 0;
-  background: #9A12B3;
+  background-color: #fff;
   z-index: 30; }
 
 .contpre small {
@@ -28,7 +28,9 @@ main {
   top: 48%;
   margin-left: -125px;
   margin-top: -75px;
-  color: #fff;
+  color: #454545;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
   font-size: 40px;
   letter-spacing: -2px;
   text-align: center;
@@ -38,7 +40,8 @@ main {
   position: absolute;
   width: 41px;
   height: 41px;
-  background: url("http://gnatkovsky.com.ua/files/preload/tail-spin.svg") center center no-repeat;
+  background: url("../img/circles.svg") center center no-repeat;
+  fill: #454545;
   background-size: 41px;
   margin: -16px 0 0 -16px; }
 

@@ -17,6 +17,11 @@
   <title>Children - ODRI Models Management</title>
 </head>
 <body>
+  <div id="p_prldr">
+    <div class="contpre">
+      <span class="svg_anm"></span><br>Please, wait<br><small>Loading...</small>
+    </div>
+  </div>
   <header>
       <?php
       include 'en-header.html' ?>
@@ -81,6 +86,12 @@
     <?php
     include 'en-footer.php' ?>
   </footer>
+  <script type="text/javascript">$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(750).fadeOut('slow');
+});</script>
     <script src="https://use.fontawesome.com/e059081491.js"></script>
 <script type="text/javascript" src="../src/js/isotope.js"></script>
 </body>
