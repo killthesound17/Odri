@@ -5,20 +5,23 @@ header {
 .odri-header {
     display: flex;
     justify-content: space-between;
-
 }
 
 .navigation {
     position: relative;
     width: 100%;
+
     &__logo {
         width: 100%;
         height: 60px;
         padding-top: 5px;
         @media (max-width: 599px) {
-        width: 70%;
+            width: 90%;
+            margin: 0 auto;
+            height: 50px;
         }
     }
+
     &__link {
         text-decoration: none;
         font-family: $odri-font;
@@ -26,21 +29,20 @@ header {
         font-size: 1.3em;
         // line-height: 1.5em;
         @media (max-width: 599px) {
-        font-size: 0.7em;
+            font-size: 1em;
         }
     }
+
     &__heading {
         text-align: right;
         margin: 0;
         @media (max-width: 599px) {
-        text-align: left;
+            text-align: center;
         }
-
     }
     @media (max-width: 599px) {
-    flex-direction: row;
-    width: 90%;
-    margin: 0 auto;
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
@@ -51,6 +53,12 @@ header {
         list-style: none;
         justify-content: space-between;
         font-size: 18px;
+          @media (max-width: 599px) {
+
+            flex-wrap: wrap;
+            justify-content: space-around;
+            font-size: 14px;
+          }
     }
 
     &__list-link {
@@ -59,13 +67,17 @@ header {
         font-family: 'Raleway';
         color: black;
         border: 1px solid transparent;
-padding: 5px 15px;
+        padding: 5px 15px;
+        @media (max-width: 599px) {
+            margin-top: 5px;
+            margin-bottom: 5px;
+          }
 
         &:hover {
             color: rgb(188, 0, 255);
             border: 1px solid rgb(188, 0, 255);
-padding: 5px 15px;
-border-radius: 3px;
+            padding: 5px 15px;
+            border-radius: 3px;
         }
 
         &:active {
@@ -73,14 +85,14 @@ border-radius: 3px;
         }
     }
     @media (max-width: 599px) {
-    width: 30%;
-    overflow: hidden;
+        width: 95%;
+        margin: 0 auto;
     }
 }
 
 .fixed-header {
-  padding-top: 10px;
-  padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -89,13 +101,12 @@ border-radius: 3px;
     background-color: rgba(255, 255, 255, 0.85);
     animation: headerreveal 1s ease-in;
 }
-
-
 @keyframes headerreveal {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

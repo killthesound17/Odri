@@ -6,6 +6,10 @@ footer {
   flex-direction: row;
   padding-top: 25px;
   padding-bottom: 25px;
+  @media (max-width: 900px) {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 .aboutus {
   width: 60%;
@@ -17,11 +21,18 @@ footer {
     color: white;
     font-size: 24px;
     margin: 0;
+    @media (max-width: 900px) {
+  font-size: 20px;
+    }
   }
   &__list {
     width: 30%;
     display: flex;
     justify-content: space-around;
+    @media (max-width: 900px) {
+  flex-direction: column;
+  width:60%;
+    }
   }
   &__list-item {
     margin-top: 5px;

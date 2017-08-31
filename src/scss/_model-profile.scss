@@ -2,10 +2,17 @@
   padding: 35px 0;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 }
 
 .model-info {
   width: 30%;
+  @media (max-width: 900px) {
+      width: 90%;
+      margin: 0 auto;
+    }
   &__name {
     font-family: $head-font;
     text-transform: uppercase;
@@ -15,6 +22,10 @@
 .model-photos {
   width: 60%;
   text-align: right;
+  @media (max-width: 900px) {
+      width: 100%;
+      margin: 0 auto;
+    }
 }
 
 .photos-fullsize {

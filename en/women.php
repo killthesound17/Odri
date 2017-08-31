@@ -28,7 +28,7 @@
 
 
 <div class="container">
-
+  <h1 class="pagename">women</h1>
   <div class="model-filter filter-button-group">
     <button class="model-filter__item model-filter__item--active" data-filter="*" data-filter=".">All</button>
     <button class="model-filter__item" data-filter=".top">TOP</button>
@@ -61,9 +61,7 @@
   <footer>
     <?php include 'en-footer.php' ?>
   </footer>
-    <script type="text/javascript" src="../src/js/preloader.js">
-
-    </script>
+    <script type="text/javascript" src="../src/js/preloader.js"></script>
     <script src="https://use.fontawesome.com/e059081491.js"></script>
     <script type="text/javascript" src="../src/js/main.js"></script>
 </body>

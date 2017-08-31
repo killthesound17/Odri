@@ -85,6 +85,6 @@
   </footer>
 <script type="text/javascript" src="../src/js/preloader.js"></script>
     <script src="https://use.fontawesome.com/e059081491.js"></script>
-<script type="text/javascript" src="../src/js/isotope.js"></script>
+<script type="text/javascript" src="../src/js/main.js"></script>
 </body>
 </html>

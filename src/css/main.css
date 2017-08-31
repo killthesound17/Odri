@@ -59,6 +59,17 @@ main {
 button, a {
   cursor: pointer; }
 
+.pagename {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  text-align: center;
+  padding-top: 30px;
+  color: #454545; }
+  @media (max-width: 599px) {
+    .pagename {
+      padding-top: 15px; } }
+
 @keyframes emersion {
   0% {
     opacity: 0; }
@@ -75,10 +86,16 @@ button, a {
 .mainPageLeft {
   height: 100%;
   width: 45%; }
+  @media (max-width: 900px) {
+    .mainPageLeft {
+      display: none; } }
   .mainPageLeft__img {
     height: 100%;
     display: block;
     text-align: right; }
+    @media (max-width: 900px) {
+      .mainPageLeft__img {
+        display: none; } }
 
 .mainPageRight {
   width: 60%;
@@ -86,6 +103,10 @@ button, a {
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
+  @media (max-width: 900px) {
+    .mainPageRight {
+      width: 90%;
+      margin: 0 auto; } }
   .mainPageRight__upper {
     height: 55%;
     display: flex;
@@ -99,6 +120,16 @@ button, a {
     font-family: "Rochester", cursive;
     font-size: 2.2em;
     padding: 3px; }
+    @media (max-width: 900px) {
+      .mainPageRight__ulink {
+        background: linear-gradient(to right, #454545 20%, #894fa1 40%, #cc7ff0 60%, #454545 80%);
+        background-size: 200% auto;
+        color: #000;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shine 5s linear infinite; } }
     .mainPageRight__ulink:hover {
       background: linear-gradient(to right, #454545 20%, #894fa1 40%, #cc7ff0 60%, #454545 80%);
       background-size: 200% auto;
@@ -111,6 +142,18 @@ button, a {
 @keyframes shine {
   to {
     background-position: 200% center; } }
+  @media (max-width: 900px) {
+    .mainPageRight__uheading {
+      text-align: center; } }
+  .mainPageRight__hideheading {
+    display: none; }
+    @media (max-width: 900px) {
+      .mainPageRight__hideheading {
+        display: block;
+        font-family: "Roboto", sans-serif;
+        font-size: 1em;
+        text-transform: uppercase;
+        text-align: center; } }
   .mainPageRight__lower {
     height: 45%;
     display: flex;
@@ -136,7 +179,9 @@ button, a {
     padding-top: 5px; }
     @media (max-width: 599px) {
       .navigation__logo {
-        width: 70%; } }
+        width: 90%;
+        margin: 0 auto;
+        height: 50px; } }
   .navigation__link {
     text-decoration: none;
     font-family: "Rochester", cursive;
@@ -144,17 +189,16 @@ button, a {
     font-size: 1.3em; }
     @media (max-width: 599px) {
       .navigation__link {
-        font-size: 0.7em; } }
+        font-size: 1em; } }
   .navigation__heading {
     text-align: right;
     margin: 0; }
     @media (max-width: 599px) {
       .navigation__heading {
-        text-align: left; } }
+        text-align: center; } }
   @media (max-width: 599px) {
     .navigation {
-      flex-direction: row;
-      width: 90%;
+      width: 100%;
       margin: 0 auto; } }
 
 .odri-nav__list {
@@ -163,6 +207,11 @@ button, a {
   list-style: none;
   justify-content: space-between;
   font-size: 18px; }
+  @media (max-width: 599px) {
+    .odri-nav__list {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      font-size: 14px; } }
 .odri-nav__list-link {
   text-decoration: none;
   text-transform: uppercase;
@@ -170,6 +219,10 @@ button, a {
   color: black;
   border: 1px solid transparent;
   padding: 5px 15px; }
+  @media (max-width: 599px) {
+    .odri-nav__list-link {
+      margin-top: 5px;
+      margin-bottom: 5px; } }
   .odri-nav__list-link:hover {
     color: #bc00ff;
     border: 1px solid #bc00ff;
@@ -179,8 +232,8 @@ button, a {
     transition: all 0.5s ease-in; }
 @media (max-width: 599px) {
   .odri-nav {
-    width: 30%;
-    overflow: hidden; } }
+    width: 95%;
+    margin: 0 auto; } }
 
 .fixed-header {
   padding-top: 10px;
@@ -204,6 +257,10 @@ button, a {
   margin: 15px auto 0;
   display: flex;
   justify-content: space-around; }
+  @media (max-width: 900px) {
+    .model-filter {
+      width: 90%;
+      margin: 10px auto; } }
   .model-filter__item {
     text-decoration: none;
     border: none;
@@ -228,6 +285,14 @@ button, a {
   padding-top: 10px;
   position: relative;
   filter: grayscale(100%); }
+  @media (max-width: 900px) {
+    .model {
+      width: 32%;
+      padding-top: 5px; } }
+  @media (max-width: 599px) {
+    .model {
+      width: 48%;
+      padding-top: 5px; } }
   .model__imgprev {
     width: 100%;
     height: 100%;
@@ -257,6 +322,10 @@ footer {
   flex-direction: row;
   padding-top: 25px;
   padding-bottom: 25px; }
+  @media (max-width: 900px) {
+    .odri-footer {
+      width: 90%;
+      margin: 0 auto; } }
 
 .aboutus {
   width: 60%;
@@ -268,10 +337,17 @@ footer {
     color: white;
     font-size: 24px;
     margin: 0; }
+    @media (max-width: 900px) {
+      .aboutus__odri-heading {
+        font-size: 20px; } }
   .aboutus__list {
     width: 30%;
     display: flex;
     justify-content: space-around; }
+    @media (max-width: 900px) {
+      .aboutus__list {
+        flex-direction: column;
+        width: 60%; } }
   .aboutus__list-item {
     margin-top: 5px; }
   .aboutus__list-link {
@@ -338,9 +414,16 @@ footer {
   padding: 35px 0;
   display: flex;
   justify-content: space-between; }
+  @media (max-width: 900px) {
+    .model-profile {
+      flex-direction: column; } }
 
 .model-info {
   width: 30%; }
+  @media (max-width: 900px) {
+    .model-info {
+      width: 90%;
+      margin: 0 auto; } }
   .model-info__name {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase; }
@@ -348,6 +431,10 @@ footer {
 .model-photos {
   width: 60%;
   text-align: right; }
+  @media (max-width: 900px) {
+    .model-photos {
+      width: 100%;
+      margin: 0 auto; } }
 
 .photos-fullsize {
   width: 100%; }
@@ -520,9 +607,17 @@ input[type="radio"] {
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 30px; }
+  @media (max-width: 900px) {
+    .contact-flex {
+      width: 100%;
+      margin: 0 auto; } }
 
 .contact-info {
   width: 45%; }
+  @media (max-width: 900px) {
+    .contact-info {
+      width: 90%;
+      margin: 0 auto; } }
   .contact-info__heading {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -543,6 +638,10 @@ input[type="radio"] {
 
 .contact-map {
   width: 50%; }
+  @media (max-width: 900px) {
+    .contact-map {
+      width: 100%;
+      margin: 0 auto; } }
   .contact-map__heading {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;

@@ -11,12 +11,17 @@
 .mainPageLeft {
     height: 100%;
     width: 45%;
-
+    @media (max-width: 900px)  {
+      display: none;
+    }
 
     &__img {
         height: 100%;
         display: block;
         text-align: right;
+        @media (max-width: 900px) {
+          display: none;
+        }
 
     }
 }
@@ -27,15 +32,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
-
+    @media (max-width: 900px) {
+      width: 90%;
+      margin: 0 auto;
+    }
     &__upper {
         height: 55%;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
     }
-
     &__ulink {
         display: block;
         width: 100%;
@@ -44,8 +50,16 @@
         font-family: $odri-font;
         font-size: 2.2em;
         padding: 3px;
-
-
+        @media (max-width: 900px) {
+          background: linear-gradient(to right, #454545 20%, #894fa1 40%, #cc7ff0 60%, #454545 80%);
+          background-size: 200% auto;
+          color: #000;
+          background-clip: text;
+          text-fill-color: transparent;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: shine 5s linear infinite;
+        }
         &:hover {
 
             background: linear-gradient(to right, #454545 20%, #894fa1 40%, #cc7ff0 60%, #454545 80%);
@@ -65,7 +79,21 @@
     }
 
     &__uheading {
+        @media (max-width: 900px) {
+          text-align: center;
+        }
 
+    }
+    &__hideheading {
+      display: none;
+        @media (max-width: 900px) {
+          display: block;
+          font-family: $text-font;
+          font-size: 1em;
+          text-transform: uppercase;
+          text-align: center;
+
+        }
     }
 
     &__lower {

@@ -69,6 +69,17 @@ outline: none;
 button,a {
   cursor: pointer;
 }
+.pagename {
+  font-family: $head-font;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  text-align: center;
+  padding-top: 30px;
+  color: #454545;
+    @media (max-width: 599px) {
+      padding-top: 15px;
+    }
+}
 @keyframes emersion {
   0% {
     opacity: 0;
