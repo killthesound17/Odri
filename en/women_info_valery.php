@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <?php include 'preloader.php' ?>
   <header>
       <?php
       include 'en-header.html' ?>
@@ -69,6 +70,7 @@
       <?php include 'en-footer.php' ?>
 
     </footer>
+    <script type="text/javascript" src="../src/js/preloader.js"></script>
     <script type="text/javascript" src="../src/js/slick.min.js">
 
     </script>

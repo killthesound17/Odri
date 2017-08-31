@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <?php include 'preloader.php' ?>
   <header>
       <?php
       include 'en-header.html' ?>
@@ -50,7 +51,7 @@
                 <li class="option-values__value">34</li>
                 <li class="option-values__value">brown</li>
                 <li class="option-values__value">green</li>
-                <li class="model-options__value">10</li>
+                <li class="option-values__value">10</li>
               </ul>
             </div>
           </div>
@@ -71,6 +72,7 @@
       <?php include 'en-footer.php' ?>
 
     </footer>
+    <script type="text/javascript" src="../src/js/preloader.js"></script>
     <script type="text/javascript" src="../src/js/slick.min.js">
 
     </script>
