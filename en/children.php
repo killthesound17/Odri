@@ -47,35 +47,35 @@
   </div>
   <div class="model a-j">
     <img src="../src/img/children/AnastasiiaN/IMG_9726.jpg" alt="" class="model__imgprev">
-    <a href="" class="model__name">Anastasiia N</a>
+    <a href="children_info_anastasiyan.php" class="model__name">Anastasiia N</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/Antonina/IMG_1511.jpg" alt="" class="model__imgprev">
-    <a href="" class="model__name">Antonina</a>
+    <a href="children_info_antonina.php" class="model__name">Antonina</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/Arsen/IMG_0718.jpg" alt="" class="model__imgprev">
-    <a href="" class="model__name">Arsen</a>
+    <a href="children_info_arsen.php" class="model__name">Arsen</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/Eva/IMG_1846.jpg" alt="" class="model__imgprev">
-    <a href="" class="model__name">Eva</a>
+    <a href="children_info_eva.php" class="model__name">Eva</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/Katia/IMG_0541.jpg" alt="" class="model__imgprev">
-    <a href="" class="model__name">Ekaterina</a>
+    <a href="children_info_ekaterina.php" class="model__name">Ekaterina</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/LenaM/IMG_1479.jpg" alt="" class="model__imgprev">
-    <a href="" class="model__name">Elena M.</a>
+    <a href="children_info_elena_m.php" class="model__name">Elena M.</a>
   </div>
   <div class="model k-r">
     <img src="../src/img/children/Miroslava/IMG_1775.jpg" alt="" class="model__imgprev">
-    <a href="" class="model__name">Miroslava</a>
+    <a href="children_info_miroslava.php" class="model__name">Miroslava</a>
   </div>
   <div class="model s-z">
     <img src="../src/img/children/ValeriiaCh/IMG_9536.jpg" alt="" class="model__imgprev">
-    <a href="" class="model__name">Valeriia C.</a>
+    <a href="children_info_valeriyac.php" class="model__name">Valeriia C.</a>
   </div>
 
 </section>
