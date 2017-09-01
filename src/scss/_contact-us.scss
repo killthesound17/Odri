@@ -23,6 +23,9 @@
     &--mod {
       margin-top: 50px;
     }
+    &--rus {
+      font-family: $text-font;
+    }
   }
   &__list-item {
     font-family: $text-font;
@@ -49,6 +52,9 @@
     font-family: $head-font;
     text-transform: uppercase;
     color:#454545;
+    &--rus {
+      font-family: $text-font;
+    }
   }
 }
 #map-main {

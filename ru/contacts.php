@@ -12,17 +12,18 @@
   <script src="https://use.fontawesome.com/e059081491.js"></script>
   <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-  <title>Contact Us - ODRI Model Management</title>
+  <title>Контакты - ODRI Model Management</title>
 </head>
 <body>
   <div class="container">
     <div class="lang-buttons">
-      <a href="#">EN</a>
-      <a href="../ru/contacts.php">RU</a>
+      <a href="../en/contacts.php">EN</a>
+      <a href="#">RU</a>
     </div>
   </div>
   <header>
-      <?php include 'en-header.html' ?>
+      <?php include 'ru-header.html' ?>
+
   </header>
 
   <main>
@@ -30,16 +31,16 @@
       <div class="container">
         <div class="contact-flex">
         <div class="contact-info">
-          <h2  class="contact-info__heading">contact us</h2>
+          <h2  class="contact-info__heading contact-info__heading--rus">Контакты</h2>
           <ul class="contact-info__list">
             <!-- <li class="contact-info__list-item">  <i class="fa fa-map-marker fa-fw" aria-hidden="true"></i> 65000 Odessa, Random str, 17, office 17</li> -->
             <li class="contact-info__list-item"><i class="fa fa-phone fa-fw" aria-hidden="true"></i>+380 (063) 013 - 15 -31</li>
             <li class="contact-info__list-item "><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i> <a class="contact-info__link"  href="mailto:odrimodels@gmail.com?subject=feedback">odrimodels@gmail.com</a></li>
             <li class="contact-info__list-item"><i class="fa fa-skype fa-fw" aria-hidden="true"></i>odrimodels</li>
-              <li class="contact-info__list-item"><i class="fa fa-user fa-fw" aria-hidden="true"></i>Polina Platonova</li>
+              <li class="contact-info__list-item"><i class="fa fa-user fa-fw" aria-hidden="true"></i>Полина Платонова</li>
           </ul>
 
-          <h2 class="contact-info__heading contact-info__heading--mod">Follow us</h2class>
+          <h2 class="contact-info__heading contact-info__heading--mod contact-info__heading--rus">Соц. сети</h2class>
           <div class="socialmedia socialmedia--mod">
               <a href="" class="socialmedia__link socialmedia__link--mod"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
               <a href="" class="socialmedia__link socialmedia__link--mod"><i class="fa fa-vk" aria-hidden="true"></i></a>
@@ -56,7 +57,7 @@
   </main>
 
   <footer>
-    <?php include 'en-footer.php' ?>
+    <?php include 'ru-footer.php' ?>
   </footer>
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzEm15-1x81gZ9FcYraaVZdEEfW65rOMI&callback=initMap" defer></script> -->
   <!-- <script type="text/javascript" src="../src/js/slick.min.js">

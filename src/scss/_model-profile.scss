@@ -16,6 +16,9 @@
   &__name {
     font-family: $head-font;
     text-transform: uppercase;
+    &--rus {
+      font-family: $text-font;
+    }
   }
 }
 
@@ -50,6 +53,9 @@
   font-family: $head-font;
   text-transform: uppercase;
   font-weight: 400;
+  &--rus {
+    font-family: $text-font;
+  }
   &__option {
     padding: 20px 0;
     width: 80%;
@@ -62,6 +68,9 @@
   font-family: $head-font;
   text-transform: uppercase;
   font-weight: 400;
+  &--rus {
+    font-family: $text-font;
+  }
   &__value {
     padding: 20px 0;
     border-bottom: 1px solid transparent;

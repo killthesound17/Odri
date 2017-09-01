@@ -14,20 +14,20 @@
   </script>
 
 
-  <title>Children - ODRI Models Management</title>
+  <title>Дети - ODRI Models Management</title>
 </head>
 <body>
   <?php include 'preloader.php' ?>
-  </div>
   <div class="container">
     <div class="lang-buttons">
-      <a href="#">EN</a>
-      <a href="../ru/children.php">RU</a>
+      <a href="../en/children.php">EN</a>
+      <a href="#">RU</a>
     </div>
   </div>
+
   <header>
       <?php
-      include 'en-header.html' ?>
+      include 'ru-header.html' ?>
   </header>
 
 
@@ -35,51 +35,45 @@
 
 
 <div class="container">
-  <h1 class="pagename">children</h1>
+  <h1 class="pagename pagename--rus">children</h1>
 
-  <div class="model-filter filter-button-group">
-    <button class="model-filter__item model-filter__item--active" data-filter="*" data-filter=".">All</button>
-    <button class="model-filter__item" data-filter=".top">TOP</button>
-    <button class="model-filter__item" data-filter=".a-j">A-J</button>
-    <button class="model-filter__item" data-filter=".k-r">K-R</button>
-    <button class="model-filter__item" data-filter=".s-z">S-Z</button>
-  </div>
+  <?php include 'filter-buttons.php' ?>
 <section class="models">
   <div class="model a-j">
     <img src="../src/img/children/Aleksandra/IMG_9864.jpg" alt="" class="model__imgprev">
-    <a href="children_info_aleksandra.php" class="model__name">Aleksandra</a>
+    <a href="children_info_aleksandra.php" class="model__name model__name--rus">Александра</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/AnastasiiaN/IMG_9726.jpg" alt="" class="model__imgprev">
-    <a href="children_info_anastasiyan.php" class="model__name">Anastasiia N</a>
+    <a href="children_info_anastasiyan.php" class="model__name model__name--rus">Анастасия Н.</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/Antonina/IMG_1511.jpg" alt="" class="model__imgprev">
-    <a href="children_info_antonina.php" class="model__name">Antonina</a>
+    <a href="children_info_antonina.php" class="model__name model__name--rus">Антонина</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/Arsen/IMG_0718.jpg" alt="" class="model__imgprev">
-    <a href="children_info_arsen.php" class="model__name">Arsen</a>
+    <a href="children_info_arsen.php" class="model__name model__name--rus">Арсен</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/Eva/IMG_1846.jpg" alt="" class="model__imgprev">
-    <a href="children_info_eva.php" class="model__name">Eva</a>
+    <a href="children_info_eva.php" class="model__name model__name--rus">Ева</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/Katia/IMG_0541.jpg" alt="" class="model__imgprev">
-    <a href="children_info_ekaterina.php" class="model__name">Ekaterina</a>
+    <a href="children_info_ekaterina.php" class="model__name model__name--rus">Екатерина</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/children/LenaM/IMG_1479.jpg" alt="" class="model__imgprev">
-    <a href="children_info_elena_m.php" class="model__name">Elena M.</a>
+    <a href="children_info_elena_m.php" class="model__name model__name--rus">Елена М.</a>
   </div>
-  <div class="model k-r">
+  <div class="model z-r">
     <img src="../src/img/children/Miroslava/IMG_1775.jpg" alt="" class="model__imgprev">
-    <a href="children_info_miroslava.php" class="model__name">Miroslava</a>
+    <a href="children_info_miroslava.php" class="model__name model__name--rus">Мирослава</a>
   </div>
-  <div class="model s-z">
+  <div class="model a-j">
     <img src="../src/img/children/ValeriiaCh/IMG_9536.jpg" alt="" class="model__imgprev">
-    <a href="children_info_valeriyac.php" class="model__name">Valeriia C.</a>
+    <a href="children_info_valeriyac.php" class="model__name model__name--rus">Валерия Ч.</a>
   </div>
 
 </section>
@@ -88,7 +82,7 @@
   </main>
   <footer>
     <?php
-    include 'en-footer.php' ?>
+    include 'ru-footer.php' ?>
   </footer>
 <script type="text/javascript" src="../src/js/preloader.js"></script>
     <script src="https://use.fontawesome.com/e059081491.js"></script>

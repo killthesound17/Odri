@@ -13,19 +13,19 @@
   <script type="text/javascript" src="https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.min.js">
   </script>
 
-  <title>WOMEN - ODRI Model Management</title>
+  <title>Женщины - ODRI Model Management</title>
 </head>
 <body>
   <?php include 'preloader.php' ?>
   <div class="container">
     <div class="lang-buttons">
-      <a href="#">EN</a>
-      <a href="../ru/women.php">RU</a>
+      <a href="../en/women.php">EN</a>
+      <a href="#">RU</a>
     </div>
   </div>
   <header>
       <?php
-      include 'en-header.html' ?>
+      include 'ru-header.html' ?>
   </header>
 
 
@@ -34,30 +34,24 @@
 
 
 <div class="container">
-  <h1 class="pagename">women</h1>
-  <div class="model-filter filter-button-group">
-    <button class="model-filter__item model-filter__item--active" data-filter="*" data-filter=".">All</button>
-    <button class="model-filter__item" data-filter=".top">TOP</button>
-    <button class="model-filter__item" data-filter=".a-j">A-J</button>
-    <button class="model-filter__item" data-filter=".k-r">K-R</button>
-    <button class="model-filter__item" data-filter=".s-z">S-Z</button>
-  </div>
+  <h1 class="pagename">Женщины</h1>
+  <?php include 'filter-buttons.php' ?>
 <section class="models">
   <div class="model a-j">
     <img src="../src/img/women/Alina/IMG_2977.jpg" alt="" class="model__imgprev">
-    <a href="women_info_alina.php" class="model__name">Alina</a>
+    <a href="women_info_alina.php" class="model__name model__name--rus">Алина</a>
   </div>
   <div class="model a-j">
     <img src="../src/img/women/Anna/IMG_2351.jpg" alt="" class="model__imgprev">
-    <a href="women_info_anna.php" class="model__name">Anna</a>
+    <a href="women_info_anna.php" class="model__name model__name--rus">Анна</a>
   </div>
-  <div class="model s-z">
+  <div class="model a-j">
     <img src="../src/img/women/Valery/IMG_2468.jpg" alt="" class="model__imgprev">
-    <a href="women_info_valery.php" class="model__name">Valeriia</a>
+    <a href="women_info_valery.php" class="model__name model__name--rus">Валерия</a>
   </div>
-  <div class="model s-z">
+  <div class="model a-j">
     <img src="../src/img/women/ViktoriiaB/IMG_2505.jpg" alt="" class="model__imgprev">
-    <a href="women_info_viktoriyab.php" class="model__name">Viktoriia B.</a>
+    <a href="women_info_viktoriyab.php" class="model__name model__name--rus">Виктория Б.</a>
   </div>
 
 </section>
@@ -65,7 +59,7 @@
 </div>
   </main>
   <footer>
-    <?php include 'en-footer.php' ?>
+    <?php include 'ru-footer.php' ?>
   </footer>
     <script type="text/javascript" src="../src/js/preloader.js"></script>
     <script src="https://use.fontawesome.com/e059081491.js"></script>

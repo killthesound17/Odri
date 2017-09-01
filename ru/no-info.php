@@ -18,27 +18,26 @@
 <body>
   <div class="container">
     <div class="lang-buttons">
-      <a href="#">EN</a>
-      <a href="../ru/no-info.php">RU</a>
+      <a href="../en/no-info.php">EN</a>
+      <a href="#">RU</a>
     </div>
   </div>
     <header>
-        <?php include 'en-header.html' ?>
+        <?php include 'ru-header.html' ?>
     </header>
 
 
     <main>
         <div class="">
           <div class="container">
-
-              <p class="noinfo">We're sorry!</p>
-              <p class="noinfo">This page is under construction.</p>
-              <p class="noinfo">Please, come back soon!</p>
+              <p class="noinfo noinfo--rus">Приносим свои извинения!</p>
+              <p class="noinfo noinfo--rus">Раздел наполняется</p>
+              <p class="noinfo noinfo--rus">Ждем Вас в скором времени!</p>
         </div>
         </div>
     </main>
     <footer>
-        <?php include 'en-footer.php' ?>
+        <?php include 'ru-footer.php' ?>
     </footer>
 
     <script src="https://use.fontawesome.com/e059081491.js"></script>

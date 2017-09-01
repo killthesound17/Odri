@@ -16,6 +16,9 @@
         font-family: $head-font;
         border: 1px solid transparent;
         padding: 5px 15px;
+        &--rus {
+          font-family: $text-font;
+        }
 
         &--active {
             color: rgb(188, 0, 255);

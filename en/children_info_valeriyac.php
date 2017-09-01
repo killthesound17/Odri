@@ -20,6 +20,12 @@
 
 <body>
     <?php include 'preloader.php' ?>
+    <div class="container">
+      <div class="lang-buttons">
+        <a href="#">EN</a>
+        <a href="../ru/children_info_valeriyac.php">RU</a>
+      </div>
+    </div>
   <header>
       <?php
       include 'en-header.html' ?>

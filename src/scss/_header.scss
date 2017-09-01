@@ -64,10 +64,13 @@ header {
     &__list-link {
         text-decoration: none;
         text-transform: uppercase;
-        font-family: 'Raleway';
+        font-family: $head-font;
         color: black;
         border: 1px solid transparent;
         padding: 5px 15px;
+        &--rus {
+          font-family: $text-font;
+        }
         @media (max-width: 599px) {
             margin-top: 5px;
             margin-bottom: 5px;

@@ -15,6 +15,9 @@
     font-family: $head-font;
     text-transform: uppercase;
     color: #454545;
+    &--rus {
+      font-family: $text-font;
+    }
   }
   &__text {
     font-family: $text-font;
@@ -69,6 +72,9 @@
     font-family: $head-font;
     text-transform: uppercase;
     color: #454545;
+    &--rus {
+      font-family: $text-font;
+    }
   }
 }
 input[type="radio"] {

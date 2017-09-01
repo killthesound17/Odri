@@ -39,6 +39,9 @@
     font-family: $head-font;
     background-color: rgba(57, 57, 57, 0.73);
     color: $light-color;
+    &--rus {
+      font-family: $text-font;
+    }
   }
   &:hover {
     filter: grayscale(0%);

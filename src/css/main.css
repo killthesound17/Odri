@@ -3,7 +3,8 @@ body {
   background-size: cover;
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+  font-family: Arial, sans-serif; }
 
 main {
   flex: 1; }
@@ -29,7 +30,7 @@ main {
   margin-left: -125px;
   margin-top: -75px;
   color: #454545;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
   letter-spacing: -2px;
@@ -66,6 +67,8 @@ button, a {
   text-align: center;
   padding-top: 30px;
   color: #454545; }
+  .pagename--rus {
+    font-family: "Roboto", sans-serif; }
   @media (max-width: 599px) {
     .pagename {
       padding-top: 15px; } }
@@ -75,6 +78,22 @@ button, a {
     opacity: 0; }
   100% {
     opacity: 1; } }
+.noinfo {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #454545; }
+
+.lang-buttons a {
+  text-decoration: none;
+  color: #454545;
+  display: inline-block;
+  margin: 2px 15px; }
+
 .mainpage {
   animation: emersion 1.5s ease-in; }
 
@@ -215,10 +234,12 @@ button, a {
 .odri-nav__list-link {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway';
+  font-family: "Raleway", sans-serif;
   color: black;
   border: 1px solid transparent;
   padding: 5px 15px; }
+  .odri-nav__list-link--rus {
+    font-family: "Roboto", sans-serif; }
   @media (max-width: 599px) {
     .odri-nav__list-link {
       margin-top: 5px;
@@ -268,6 +289,8 @@ button, a {
     font-family: "Raleway", sans-serif;
     border: 1px solid transparent;
     padding: 5px 15px; }
+    .model-filter__item--rus {
+      font-family: "Roboto", sans-serif; }
     .model-filter__item--active {
       color: #bc00ff;
       border: 1px solid #bc00ff;
@@ -311,6 +334,8 @@ button, a {
     font-family: "Raleway", sans-serif;
     background-color: rgba(57, 57, 57, 0.73);
     color: #e093ff; }
+    .model__name--rus {
+      font-family: "Roboto", sans-serif; }
   .model:hover {
     filter: grayscale(0%); }
 
@@ -357,6 +382,8 @@ footer {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 300; }
+    .aboutus__list-link--rus {
+      font-family: "Roboto", sans-serif; }
 
 .contactus {
   width: 50%;
@@ -370,6 +397,8 @@ footer {
     display: block;
     margin-top: 10px;
     margin-bottom: 5px; }
+    .contactus__text--rus {
+      font-family: "Roboto", sans-serif; }
 
 .socialmedia {
   text-align: right; }
@@ -385,30 +414,6 @@ footer {
     color: #454545;
     text-align: left;
     margin-right: 10px; }
-
-.subscribeform {
-  display: block; }
-  .subscribeform input[type="email"] {
-    width: 50%;
-    padding: 5px;
-    background: transparent;
-    border: none;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 300;
-    color: white; }
-  .subscribeform input[type="submit"] {
-    background: none;
-    border: none;
-    text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
-    border: 1px solid #e9e9e9;
-    background-color: #e9e9e9;
-    padding: 5px 20px;
-    color: #bc00ff;
-    border-radius: 5px;
-    font-weight: 300; }
 
 .model-profile {
   padding: 35px 0;
@@ -427,6 +432,8 @@ footer {
   .model-info__name {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase; }
+    .model-info__name--rus {
+      font-family: "Roboto", sans-serif; }
 
 .model-photos {
   width: 60%;
@@ -452,6 +459,8 @@ footer {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 400; }
+  .model-options--rus {
+    font-family: "Roboto", sans-serif; }
   .model-options__option {
     padding: 20px 0;
     width: 80%;
@@ -463,6 +472,8 @@ footer {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 400; }
+  .option-values--rus {
+    font-family: "Roboto", sans-serif; }
   .option-values__value {
     padding: 20px 0;
     border-bottom: 1px solid transparent; }
@@ -523,6 +534,8 @@ footer {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #454545; }
+    .text-reg__heading--rus {
+      font-family: "Roboto", sans-serif; }
   .text-reg__text {
     font-family: "Roboto", sans-serif;
     color: #454545;
@@ -571,6 +584,8 @@ footer {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #454545; }
+  .reg-form__heading--rus {
+    font-family: "Roboto", sans-serif; }
 
 input[type="radio"] {
   width: 10%; }
@@ -624,6 +639,8 @@ input[type="radio"] {
     color: #454545; }
     .contact-info__heading--mod {
       margin-top: 50px; }
+    .contact-info__heading--rus {
+      font-family: "Roboto", sans-serif; }
   .contact-info__list-item {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -646,6 +663,8 @@ input[type="radio"] {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #454545; }
+    .contact-map__heading--rus {
+      font-family: "Roboto", sans-serif; }
 
 #map-main {
   width: 100%;
