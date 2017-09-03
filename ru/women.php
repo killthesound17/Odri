@@ -35,7 +35,7 @@
 
 <div class="container">
   <h1 class="pagename">Женщины</h1>
-  <?php include 'filter-buttons.php' ?>
+  <!-- <?php include 'filter-buttons.php' ?> -->
 <section class="models">
   <div class="model a-j">
     <img src="../src/img/women/Alina/IMG_2977.jpg" alt="" class="model__imgprev">

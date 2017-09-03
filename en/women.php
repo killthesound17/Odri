@@ -35,13 +35,13 @@
 
 <div class="container">
   <h1 class="pagename">women</h1>
-  <div class="model-filter filter-button-group">
+  <!-- <div class="model-filter filter-button-group">
     <button class="model-filter__item model-filter__item--active" data-filter="*" data-filter=".">All</button>
     <button class="model-filter__item" data-filter=".top">TOP</button>
     <button class="model-filter__item" data-filter=".a-j">A-J</button>
     <button class="model-filter__item" data-filter=".k-r">K-R</button>
     <button class="model-filter__item" data-filter=".s-z">S-Z</button>
-  </div>
+  </div> -->
 <section class="models">
   <div class="model a-j">
     <img src="../src/img/women/Alina/IMG_2977.jpg" alt="" class="model__imgprev">

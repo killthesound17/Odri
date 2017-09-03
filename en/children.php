@@ -81,6 +81,18 @@
     <img src="../src/img/children/ValeriiaCh/IMG_9536.jpg" alt="" class="model__imgprev">
     <a href="children_info_valeriyac.php" class="model__name">Valeriia C.</a>
   </div>
+  <div class="model s-z">
+    <img src="../src/img/children/Sofiia/IMG_0789.jpg" alt="" class="model__imgprev">
+    <a href="children_info_sofiia.php" class="model__name">Sofiia</a>
+  </div>
+  <div class="model s-z">
+    <img src="../src/img/children/Liza/IMG_1129.jpg" alt="" class="model__imgprev">
+    <a href="children_info_liza.php" class="model__name">Liza</a>
+  </div>
+  <div class="model s-z">
+    <img src="../src/img/children/Veronika/IMG_9255.jpg" alt="" class="model__imgprev">
+    <a href="children_info_veronika.php" class="model__name">Veronika</a>
+  </div>
 
 </section>
 

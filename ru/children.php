@@ -35,9 +35,9 @@
 
 
 <div class="container">
-  <h1 class="pagename pagename--rus">children</h1>
+  <h1 class="pagename pagename--rus">Дети</h1>
 
-  <?php include 'filter-buttons.php' ?>
+  <!-- <?php include 'filter-buttons.php' ?> -->
 <section class="models">
   <div class="model a-j">
     <img src="../src/img/children/Aleksandra/IMG_9864.jpg" alt="" class="model__imgprev">
@@ -74,6 +74,18 @@
   <div class="model a-j">
     <img src="../src/img/children/ValeriiaCh/IMG_9536.jpg" alt="" class="model__imgprev">
     <a href="children_info_valeriyac.php" class="model__name model__name--rus">Валерия Ч.</a>
+  </div>
+  <div class="model s-z">
+    <img src="../src/img/children/Sofiia/IMG_0789.jpg" alt="" class="model__imgprev">
+    <a href="children_info_sofiia.php" class="model__name">София</a>
+  </div>
+  <div class="model s-z">
+    <img src="../src/img/children/Liza/IMG_1129.jpg" alt="" class="model__imgprev">
+    <a href="children_info_liza.php" class="model__name">Лиза</a>
+  </div>
+  <div class="model s-z">
+    <img src="../src/img/children/Veronika/IMG_9255.jpg" alt="" class="model__imgprev">
+    <a href="children_info_veronika.php" class="model__name">Вероника</a>
   </div>
 
 </section>
