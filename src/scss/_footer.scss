@@ -23,6 +23,7 @@ footer {
     margin: 0;
     @media (max-width: 900px) {
   font-size: 20px;
+  width: 40%;
     }
   }
   &__list {
@@ -31,7 +32,7 @@ footer {
     justify-content: space-around;
     @media (max-width: 900px) {
   flex-direction: column;
-  width:60%;
+  width:55%;
     }
   }
   &__list-item {
@@ -47,7 +48,11 @@ footer {
     &--rus {
       font-family: $text-font;
     }
-
+  }
+  @media (max-width: 599px)
+  {
+    width:70%;
+    justify-content: space-between;
   }
 }
 .contactus {
@@ -66,6 +71,10 @@ footer {
               font-family: $text-font;
             }
     }
+    @media (max-width: 599px)
+    {
+      width:30%;
+    }
 }
 .socialmedia {
 text-align: right;
@@ -78,6 +87,10 @@ text-align: right;
     }
     &--mod {
       color: #454545;
+    }
+    @media (max-width: 599px)
+    {
+      font-size: 18px;
     }
   }
   &--mod {

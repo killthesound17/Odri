@@ -93,6 +93,10 @@ button, a {
   color: #454545;
   display: inline-block;
   margin: 2px 15px; }
+  @media (max-width: 599px) {
+    .lang-buttons a {
+      font-size: 12px;
+      margin: 2px 10px; } }
 
 .mainpage {
   animation: emersion 1.5s ease-in; }
@@ -229,7 +233,7 @@ button, a {
   @media (max-width: 599px) {
     .odri-nav__list {
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-between;
       font-size: 14px; } }
 .odri-nav__list-link {
   text-decoration: none;
@@ -249,6 +253,9 @@ button, a {
     border: 1px solid #bc00ff;
     padding: 5px 15px;
     border-radius: 3px; }
+    @media (max-width: 599px) {
+      .odri-nav__list-link:hover {
+        border: 1px solid transparent; } }
   .odri-nav__list-link:active {
     transition: all 0.5s ease-in; }
 @media (max-width: 599px) {
@@ -303,6 +310,12 @@ button, a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
+  @media (max-width: 900px) {
+    .models {
+      justify-content: space-around; } }
+  @media (max-width: 599px) {
+    .models {
+      justify-content: space-around; } }
 
 .model {
   width: 24.5%;
@@ -365,7 +378,8 @@ footer {
     margin: 0; }
     @media (max-width: 900px) {
       .aboutus__odri-heading {
-        font-size: 20px; } }
+        font-size: 20px;
+        width: 40%; } }
   .aboutus__list {
     width: 30%;
     display: flex;
@@ -373,7 +387,7 @@ footer {
     @media (max-width: 900px) {
       .aboutus__list {
         flex-direction: column;
-        width: 60%; } }
+        width: 55%; } }
   .aboutus__list-item {
     margin-top: 5px; }
   .aboutus__list-link {
@@ -385,6 +399,10 @@ footer {
     font-weight: 300; }
     .aboutus__list-link--rus {
       font-family: "Roboto", sans-serif; }
+  @media (max-width: 599px) {
+    .aboutus {
+      width: 70%;
+      justify-content: space-between; } }
 
 .contactus {
   width: 50%;
@@ -400,6 +418,9 @@ footer {
     margin-bottom: 5px; }
     .contactus__text--rus {
       font-family: "Roboto", sans-serif; }
+  @media (max-width: 599px) {
+    .contactus {
+      width: 30%; } }
 
 .socialmedia {
   text-align: right; }
@@ -411,6 +432,9 @@ footer {
       color: #bc00ff; }
     .socialmedia__link--mod {
       color: #454545; }
+    @media (max-width: 599px) {
+      .socialmedia__link {
+        font-size: 18px; } }
   .socialmedia--mod {
     color: #454545;
     text-align: left;
