@@ -66,6 +66,8 @@
               <img src="../src/img/children/Antonina/IMG_1511.jpg" alt="" class="photos-fullsize__photo">
               <img src="../src/img/children/Antonina/IMG_1527.jpg" alt="" class="photos-fullsize__photo">
               <img src="../src/img/children/Antonina/IMG_1555.jpg" alt="" class="photos-fullsize__photo">
+              <img src="../src/img/children/Antonina/IMG_15571.JPG" alt="" class="photos-fullsize__photo">
+              <img src="../src/img/children/Antonina/IMG_15771.jpg" alt="" class="photos-fullsize__photo">
             </div>
           </div>
           <div class=""></div>

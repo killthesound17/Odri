@@ -15,7 +15,7 @@
     <script type="text/javascript" src="https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.min.js">
     </script>
 
-    <title>ARSEN - CHILDREN - ODRI Models Management</title>
+    <title>IRINA - CHILDREN - ODRI Models Management</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
     <div class="container">
       <div class="lang-buttons">
         <a href="#">EN</a>
-        <a href="../ru/children_info_arsen.php">RU</a>
+        <a href="../ru/children_info_irina.php">RU</a>
       </div>
     </div>
   <header>
@@ -37,7 +37,7 @@
         <div class="container">
         <section class="model-profile">
           <div class="model-info">
-            <h2 class="model-info__name">Arsen</h2>
+            <h2 class="model-info__name">Irina</h2>
             <div class="options">
               <ul class="model-options">
                 <li class="model-options__option">height</li>
@@ -50,22 +50,22 @@
                 <li class="model-options__option">age</li>
               </ul>
               <ul class="option-values">
-                <li class="option-values__value">124</li>
-                <li class="option-values__value">60</li>
-                <li class="option-values__value">55</li>
-                <li class="option-values__value">65</li>
-                <li class="option-values__value">32</li>
+                <li class="option-values__value">146cm</li>
+                <li class="option-values__value">66cm</li>
+                <li class="option-values__value">64cm</li>
+                <li class="option-values__value">75cm</li>
+                <li class="option-values__value">36</li>
                 <li class="option-values__value">blonde</li>
-                <li class="option-values__value">-</li>
+                <li class="option-values__value">gray</li>
                 <li class="option-values__value">8</li>
-              </ul>
-            </div>
-          </div>
-          <div class="model-photos">
-            <div class="photos-fullsize">
-              <img src="../src/img/children/Arsen/IMG_0670.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/children/Arsen/IMG_0701.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/children/Arsen/IMG_0718.jpg" alt="" class="photos-fullsize__photo">
+                </ul>
+                </div>
+                </div>
+                <div class="model-photos">
+                <div class="photos-fullsize">
+                <img src="../src/img/children/Irina/IMG_9348.jpg" alt="" class="photos-fullsize__photo">
+                <img src="../src/img/children/Irina/IMG_9432.jpg" alt="" class="photos-fullsize__photo">
+                <img src="../src/img/children/Irina/IMG_9485.jpg" alt="" class="photos-fullsize__photo">
             </div>
           </div>
           <div class=""></div>

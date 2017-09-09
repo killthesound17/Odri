@@ -66,6 +66,10 @@
               <img src="../src/img/children/LenaM/IMG_1328.jpg" alt="" class="photos-fullsize__photo">
               <img src="../src/img/children/LenaM/IMG_1408.jpg" alt="" class="photos-fullsize__photo">
               <img src="../src/img/children/LenaM/IMG_1479.jpg" alt="" class="photos-fullsize__photo">
+              <img src="../src/img/children/LenaM/IMG_13051.JPG" alt="" class="photos-fullsize__photo">
+              <img src="../src/img/children/LenaM/IMG_13101.JPG" alt="" class="photos-fullsize__photo">
+              <img src="../src/img/children/LenaM/IMG_14611.JPG" alt="" class="photos-fullsize__photo">
+              <img src="../src/img/children/LenaM/IMG_14671.jpg" alt="" class="photos-fullsize__photo">                            
             </div>
           </div>
           <div class=""></div>

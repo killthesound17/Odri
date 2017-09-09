@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400|Rochester|Roboto:300,400|Rouge+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400|Roboto:300,400|Rochester&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="../src/css/normalize.css">
     <link rel="stylesheet" href="../src/css/slick.css">
     <link rel="stylesheet" href="../src/css/main.css">
@@ -15,14 +15,14 @@
     <script type="text/javascript" src="https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.min.js">
     </script>
 
-    <title>Арсен - Дети - ODRI Models Management</title>
+    <title>Ирина - Дети - ODRI Models Management</title>
 </head>
 
 <body>
     <?php include 'preloader.php' ?>
     <div class="container">
       <div class="lang-buttons">
-        <a href="../en/children_info_arsen.php">EN</a>
+        <a href="../en/children_info_irina.php">EN</a>
         <a href="#">RU</a>
       </div>
     </div>
@@ -37,7 +37,7 @@
         <div class="container">
         <section class="model-profile">
           <div class="model-info">
-            <h2 class="model-info__name model-info__name--rus">Арсен</h2>
+            <h2 class="model-info__name model-info__name--rus">Ирина</h2>
             <div class="options">
               <ul class="model-options">
                 <li class="model-options__option model-options__option--rus">Рост</li>
@@ -50,22 +50,22 @@
                 <li class="model-options__option model-options__option--rus">Возраст</li>
               </ul>
               <ul class="option-values">
-                <li class="option-values__value">124</li>
-                <li class="option-values__value">60</li>
-                <li class="option-values__value">55</li>
-                <li class="option-values__value">65</li>
-                <li class="option-values__value">32</li>
-                <li class="option-values__value">русые</li>
-                <li class="option-values__value">-</li>
+                <li class="option-values__value">146cm</li>
+                <li class="option-values__value">66cm</li>
+                <li class="option-values__value">64cm</li>
+                <li class="option-values__value">75cm</li>
+                <li class="option-values__value">36</li>
+                <li class="option-values__value option-values__value--rus">русые</li>
+                <li class="option-values__value option-values__value--rus">серые</li>
                 <li class="option-values__value">8</li>
               </ul>
             </div>
           </div>
           <div class="model-photos">
             <div class="photos-fullsize">
-              <img src="../src/img/children/Arsen/IMG_0670.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/children/Arsen/IMG_0701.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/children/Arsen/IMG_0718.jpg" alt="" class="photos-fullsize__photo">
+              <img src="../src/img/children/Irina/IMG_9348.jpg" alt="" class="photos-fullsize__photo">
+              <img src="../src/img/children/Irina/IMG_9432.jpg" alt="" class="photos-fullsize__photo">
+              <img src="../src/img/children/Irina/IMG_9485.jpg" alt="" class="photos-fullsize__photo">
             </div>
           </div>
           <div class=""></div>
