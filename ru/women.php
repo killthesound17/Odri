@@ -53,6 +53,14 @@
     <img src="../src/img/women/ViktoriiaB/IMG_2505.jpg" alt="" class="model__imgprev">
     <a href="women_info_viktoriyab.php" class="model__name model__name--rus">Виктория Б.</a>
   </div>
+  <div class="model s-z">
+    <img src="../src/img/women/AnnaP/gVc1CTjzxIg.jpg" alt="" class="model__imgprev">
+    <a href="women_info_annap.php" class="model__name">Анна П.</a>
+  </div>
+  <div class="model s-z">
+    <img src="../src/img/women/Alexandra2/photo1.jpg" alt="" class="model__imgprev">
+    <a href="women_info_alexa.php" class="model__name">Александра</a>
+  </div>
 
 </section>
 

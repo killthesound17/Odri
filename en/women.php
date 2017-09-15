@@ -59,6 +59,14 @@
     <img src="../src/img/women/ViktoriiaB/IMG_2505.jpg" alt="" class="model__imgprev">
     <a href="women_info_viktoriyab.php" class="model__name">Viktoriia B.</a>
   </div>
+  <div class="model s-z">
+    <img src="../src/img/women/AnnaP/gVc1CTjzxIg.jpg" alt="" class="model__imgprev">
+    <a href="women_info_annap.php" class="model__name">Anna P.</a>
+  </div>
+  <div class="model s-z">
+    <img src="../src/img/women/Alexandra2/photo1.jpg" alt="" class="model__imgprev">
+    <a href="women_info_alexa.php" class="model__name">Aleksandra</a>
+  </div>
 
 </section>
 
