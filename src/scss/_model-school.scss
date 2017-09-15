@@ -1,0 +1,66 @@
+.modschool {
+width: 100%;
+padding-top: 30px;
+padding-bottom: 30px;
+@media (max-width: 900px) {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media (max-width: 599px) {
+  width: 95%;
+  margin: 0 auto;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+  &__heading {
+    font-family: $head-font;
+    color: #454545;
+    text-align: center;
+    &--rus {
+      text-transform: uppercase;
+    }
+  }
+  &__text {
+    font-family: $text-font;
+    color: #454545;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    &--mod {
+      padding-top: 20px;
+    }
+  }
+}
+
+.program {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;justify-content: space-between;
+  margin-top: 30px;
+}
+.programinfo {
+  width: 30%;
+  @media (max-width: 900px) {
+    width: 45%;
+  }
+  @media (max-width: 599px) {
+    width: 100%;
+  }
+  &__heading {
+    font-family: $head-font;
+    color: #454545;
+    &--rus {
+      font-family: $text-font;
+      text-transform: uppercase;
+    }
+
+  }
+  &__description {
+    font-family: $text-font;
+    color: #454545;
+
+  }
+}

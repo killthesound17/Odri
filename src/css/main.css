@@ -542,6 +542,62 @@ footer {
     text-decoration: none;
     color: #bc00ff; }
 
+.modschool {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  @media (max-width: 900px) {
+    .modschool {
+      width: 95%;
+      margin: 0 auto;
+      padding-top: 15px;
+      padding-bottom: 15px; } }
+  @media (max-width: 599px) {
+    .modschool {
+      width: 95%;
+      margin: 0 auto;
+      padding-top: 15px;
+      padding-bottom: 15px; } }
+  .modschool__heading {
+    font-family: "Raleway", sans-serif;
+    color: #454545;
+    text-align: center; }
+    .modschool__heading--rus {
+      text-transform: uppercase; }
+  .modschool__text {
+    font-family: "Roboto", sans-serif;
+    color: #454545;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; }
+    .modschool__text--mod {
+      padding-top: 20px; }
+
+.program {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px; }
+
+.programinfo {
+  width: 30%; }
+  @media (max-width: 900px) {
+    .programinfo {
+      width: 45%; } }
+  @media (max-width: 599px) {
+    .programinfo {
+      width: 100%; } }
+  .programinfo__heading {
+    font-family: "Raleway", sans-serif;
+    color: #454545; }
+    .programinfo__heading--rus {
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase; }
+  .programinfo__description {
+    font-family: "Roboto", sans-serif;
+    color: #454545; }
+
 .model-reg {
   width: 100%;
   display: flex;
