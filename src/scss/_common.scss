@@ -115,3 +115,21 @@ button,a {
     margin: 2px 10px;
   }
 }
+
+
+.slick-dots {
+    padding-bottom: 60px;
+    background-color: #fff;
+    bottom: -70px;
+}
+
+.slick-dots li button:before {
+    font-size: 14px;
+    color: rgba(17, 190, 155, 0.5);
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    font-size: 14px;
+    color: #11be9b;
+}
