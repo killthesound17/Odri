@@ -771,7 +771,8 @@ input[type="radio"] {
     transition: filter 0.4s ease-in; }
 
 .odri-article {
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 30px; }
   .odri-article__img {
     width: 30%;
     float: left;
@@ -781,7 +782,12 @@ input[type="radio"] {
       float: right;
       margin-right: 0;
       margin-left: 30px;
-      width: 20%; }
+      width: 20%;
+      margin-bottom: 30px; }
+  .odri-article__sub-img {
+    width: 24.5%;
+    display: inline-block;
+    clear: both; }
   .odri-article__heading {
     font-family: "Raleway", sans-serif;
     color: #454545;
@@ -795,6 +801,9 @@ input[type="radio"] {
     font-family: "Roboto", sans-serif;
     color: #454545;
     text-align: justify; }
+
+.sub-img {
+  clear: both; }
 
 .crown-slider {
   width: 100%;

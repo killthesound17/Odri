@@ -1,5 +1,6 @@
 .odri-article {
   width: 100%;
+  padding-bottom: 30px;
   &__img {
     width: 30%;
     float: left;
@@ -10,7 +11,14 @@
       margin-right: 0;
       margin-left: 30px;
       width: 20%;
+      margin-bottom: 30px;
     }
+
+  }
+  &__sub-img {
+    width: 24.5%;
+    display: inline-block;
+    clear: both;
   }
   &__heading {
     font-family: $head-font;
@@ -29,6 +37,11 @@
     text-align: justify;
 
   }
+}
+
+.sub-img {
+  clear: both;
+
 }
 
 .crown-slider {
