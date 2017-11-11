@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="../src/css/slick.css">
     <link rel="stylesheet" href="../src/css/main.css">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.min.js">
-    </script>
 
     <title>Elena M. - CHILDREN - ODRI Models Management</title>
 </head>
@@ -69,7 +66,7 @@
               <img src="../src/img/children/LenaM/IMG_13051.JPG" alt="" class="photos-fullsize__photo">
               <img src="../src/img/children/LenaM/IMG_13101.JPG" alt="" class="photos-fullsize__photo">
               <img src="../src/img/children/LenaM/IMG_14611.JPG" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/children/LenaM/IMG_14671.jpg" alt="" class="photos-fullsize__photo">                            
+              <img src="../src/img/children/LenaM/IMG_14671.jpg" alt="" class="photos-fullsize__photo">
             </div>
           </div>
           <div class=""></div>
@@ -89,6 +86,9 @@
     <script src="https://use.fontawesome.com/e059081491.js"></script>
 
     <script type="text/javascript" src="../src/js/main.js"></script>
+    <script type="text/javascript" src="../src/js/slider.js">
+
+    </script>
 </body>
 
 </html>

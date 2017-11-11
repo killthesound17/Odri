@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="../src/css/slick.css">
     <link rel="stylesheet" href="../src/css/main.css">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.min.js">
-    </script>
+
 
     <title>Александра - Дети - ODRI Models Management</title>
 </head>
@@ -85,6 +83,9 @@
     <script src="https://use.fontawesome.com/e059081491.js"></script>
 
     <script type="text/javascript" src="../src/js/main.js"></script>
+    <script type="text/javascript" src="../src/js/slider.js">
+
+    </script>
 </body>
 
 </html>
