@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="../src/css/slick.css">
   <link rel="stylesheet" href="../src/css/main.css">
   <script src="https://use.fontawesome.com/e059081491.js"></script>
-  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../src/js/jquery-3.2.1.min.js">
+  </script>
 
   <title>Контакты - ODRI Model Management</title>
 </head>
