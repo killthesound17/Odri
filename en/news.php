@@ -21,7 +21,7 @@
   <div class="container">
     <div class="lang-buttons">
       <a href="#">EN</a>
-      <a href="../ru/no-info.php">RU</a>
+      <a href="../ru/news.php">RU</a>
     </div>
   </div>
     <header>
@@ -31,6 +31,7 @@
 
     <main>
       <div class="container">
+        <h1 class="pagename">News</h1>
         <article class="odri-article">
           <img src="../src/img/articles/crowns.jpg" alt="" class="odri-article__img">
           <img src="../src/img/articles/001.jpg" alt="" class="odri-article__img odri-article__img--right">
@@ -66,7 +67,7 @@ the title of Princess and invitation to  Super models STAR WAVES. - Skorobogach 
             </div>
           </div>
         </article>
-
+<hr>
         <article class="odri-article">
           <img src="../src/img/articles/gp-main.jpeg" alt="" class="odri-article__img">
 
