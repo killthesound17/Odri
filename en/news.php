@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400|Rochester|Roboto:300,300i,400|Rouge+Script" rel="stylesheet">
     <link rel="stylesheet" href="../src/css/normalize.css">
     <link rel="stylesheet" href="../src/css/slick.css">
-    <link rel="stylesheet" href="../src/css/">
+
     <link rel="stylesheet" href="../src/css/main.css">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
@@ -18,6 +18,7 @@
 </head>
 
 <body>
+  <?php include 'preloader.php' ?>
   <div class="container">
     <div class="lang-buttons">
       <a href="#">EN</a>
@@ -91,7 +92,9 @@ the title of Princess and invitation to  Super models STAR WAVES. - Skorobogach 
     <footer>
         <?php include 'en-footer.php' ?>
     </footer>
+    <script type="text/javascript" src="../src/js/preloader.js">
 
+    </script>
     <script src="https://use.fontawesome.com/e059081491.js"></script>
     <script type="text/javascript" src="../src/js/slick.min.js">
 
