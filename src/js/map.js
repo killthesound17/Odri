@@ -1,7 +1,7 @@
 function initMap() {
     var odriPos = {
-        lat: 40.718843,
-        lng: -73.680038
+        lat: 46.4302487,
+        lng: 30.7650138
     };
 
     var map = new google.maps.Map(document.getElementById('map-main'), {
