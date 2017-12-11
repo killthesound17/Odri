@@ -203,6 +203,82 @@ button, a {
     font-family: "Raleway", sans-serif;
     color: #858585; }
 
+.main-odri {
+  width: 100%;
+  background-image: url("../img/newyearbgr1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 700px; }
+  @media (max-width: 1280px) {
+    .main-odri {
+      height: 500px; } }
+  @media (max-width: 900px) {
+    .main-odri {
+      background-size: cover; } }
+
+.wrapper {
+  width: 40%;
+  height: 700px;
+  display: flex;
+  justify-content: center; }
+  @media (max-width: 1280px) {
+    .wrapper {
+      height: 500px; } }
+  @media (max-width: 900px) {
+    .wrapper {
+      width: 45%; } }
+  @media (max-width: 599px) {
+    .wrapper {
+      width: 95%; } }
+
+.main-info {
+  height: 500px;
+  margin: auto 0; }
+  @media (max-width: 1280px) {
+    .main-info {
+      height: 300px; } }
+  .main-info__heading {
+    font-family: "Roboto", sans-serif;
+    color: #454545;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px; }
+    @media (max-width: 1280px) {
+      .main-info__heading {
+        font-size: 16px; } }
+  .main-info__odri-heading {
+    font-family: "Rochester", cursive;
+    color: #454545;
+    font-size: 46px;
+    text-align: center; }
+    @media (max-width: 1280px) {
+      .main-info__odri-heading {
+        font-size: 24px; } }
+  .main-info__text {
+    font-family: "Roboto", sans-serif;
+    color: #454545;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px; }
+    @media (max-width: 1280px) {
+      .main-info__text {
+        font-size: 16px; } }
+    @media (max-width: 900px) {
+      .main-info__text {
+        margin-bottom: 5px; } }
+  .main-info__link {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #454545;
+    font-style: italic; }
+    .main-info__link:hover {
+      color: #bc00ff; }
+
 .odri-header {
   display: flex;
   justify-content: space-between; }
