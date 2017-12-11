@@ -58,8 +58,8 @@
             <p class="programinfo__description">ACTING SKILLS - the main tasks of the course is to disclose creative abilities of students, develop imagination, attention, concentration and memory, inner emancipation, removal of mental and physical barriers, voice and breathing trainings, the basics of acting. This subject gives a chance for a wider range of job offers - from TV commercials to movies.</p>
           </div>
           <div class="programinfo">
-            <h2 class="programinfo__heading">DELIFE</h2>
-            <p class="programinfo__description">DELIFE as the main subject of our school. Here we’ll teach model correct and beautiful gait, posture, ability to walk on heels, how to act on catwalk.</p>
+            <h2 class="programinfo__heading">DEFILE</h2>
+            <p class="programinfo__description">DEFILE as the main subject of our school. Here we’ll teach model correct and beautiful gait, posture, ability to walk on heels, how to act on catwalk.</p>
           </div>
           <div class="programinfo">
             <h2 class="programinfo__heading">STYLISTICS</h2>
