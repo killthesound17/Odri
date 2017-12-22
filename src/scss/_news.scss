@@ -62,6 +62,17 @@
     text-align: justify;
 
   }
+  &__pic-container {
+    width: 80%;
+    margin: 0 auto;
+    @media (max-width: 599px) {
+      width: 100%;
+    }
+  }
+  &__container-img {
+    display: block;
+    width: 100%;
+  }
 }
 
 .sub-img {

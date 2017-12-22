@@ -898,6 +898,15 @@ input[type="radio"] {
     font-family: "Roboto", sans-serif;
     color: #454545;
     text-align: justify; }
+  .odri-article__pic-container {
+    width: 80%;
+    margin: 0 auto; }
+    @media (max-width: 599px) {
+      .odri-article__pic-container {
+        width: 100%; } }
+  .odri-article__container-img {
+    display: block;
+    width: 100%; }
 
 .sub-img {
   clear: both; }

@@ -35,6 +35,17 @@
       <div class="container">
         <h1 class="pagename">News</h1>
         <article class="odri-article">
+          <img src="../src/img/articles/Verstka-Mir-Detstva-34_Gladun[9815]sisters.jpg" alt="" class="odri-article__img">
+          <h2 class="odri-article__heading">Antonina and Natalia Gladun in "The World of Childhood and Wonders"</h2>
+          <p class="odri-article__date">Published: 2017/12/19 by Polina Platonova</p>
+          <p class="odri-article__text">Our little stars Antonina and Natalia Gladun appeared in the magazine "The World of Childhood and Wonders"</p>
+          <div class="odri-article__pic-container">
+          <img src="../src/img/articles/Verstka-Mir-Detstva-34_Gladun[9815]1.jpg" alt="" class="odri-article__container-img">
+          </div>
+          <div class="odri-article__pic-container">
+           <img src="../src/img/articles/Verstka-Mir-Detstva-34_Gladun[9815]2.jpg" alt="" class="odri-article__container-img"></div>
+        </article>
+        <article class="odri-article">
           <img src="../src/img/articles/crowns.jpg" alt="" class="odri-article__img">
           <img src="../src/img/articles/001.jpg" alt="" class="odri-article__img odri-article__img--right">
           <h2 class="odri-article__heading">Golden Crown of Ukraine</h2>

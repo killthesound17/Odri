@@ -35,6 +35,17 @@
       <div class="container">
         <h1 class="pagename pagename--rus">Новости</h1>
         <article class="odri-article">
+          <img src="../src/img/articles/Verstka-Mir-Detstva-34_Gladun[9815]sisters.jpg" alt="" class="odri-article__img">
+          <h2 class="odri-article__heading">Антонина и Наталья Гладун в "Мире детства и чудес"</h2>
+          <p class="odri-article__date">Опубликовано: 2017/12/19, автор: Полина Платонова</p>
+          <p class="odri-article__text">Наши маленькие звездочки Антонина и Наталья Гладун в журнале "Мир детства и чудес".</p>
+          <div class="odri-article__pic-container">
+          <img src="../src/img/articles/Verstka-Mir-Detstva-34_Gladun[9815]1.jpg" alt="" class="odri-article__container-img">
+          </div>
+          <div class="odri-article__pic-container">
+           <img src="../src/img/articles/Verstka-Mir-Detstva-34_Gladun[9815]2.jpg" alt="" class="odri-article__container-img"></div>
+        </article>
+        <article class="odri-article">
           <img src="../src/img/articles/crowns.jpg" alt="" class="odri-article__img">
           <img src="../src/img/articles/001.jpg" alt="" class="odri-article__img odri-article__img--right">
           <h2 class="odri-article__heading"> Конкурс Golden Crown of Ukraine</h2>
