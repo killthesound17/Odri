@@ -86,7 +86,7 @@
     <a href="children_info_veronika.php" class="model__name">Вероника</a>
   </div>
   <div class="model s-z">
-    <img src="../src/img/children/Irina/IMG_9432.jpg" alt="" class="model__imgprev">
+    <img src="../src/img/children/Irina/IMG_8987.jpg" alt="" class="model__imgprev">
     <a href="children_info_irina.php" class="model__name">Ирина</a>
   </div>
 

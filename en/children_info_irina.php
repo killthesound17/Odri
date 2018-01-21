@@ -62,6 +62,7 @@
                 </div>
                 <div class="model-photos">
                 <div class="photos-fullsize">
+                <img src="../src/img/children/Irina/IMG_8987.jpg" alt="" class="photos-fullsize__photo">
                 <img src="../src/img/children/Irina/IMG_9348.jpg" alt="" class="photos-fullsize__photo">
                 <img src="../src/img/children/Irina/IMG_9432.jpg" alt="" class="photos-fullsize__photo">
                 <img src="../src/img/children/Irina/IMG_9485.jpg" alt="" class="photos-fullsize__photo">
