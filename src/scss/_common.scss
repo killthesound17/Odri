@@ -1,6 +1,6 @@
 $odri-font: 'Rochester', cursive;
 $rouge-font: 'Rouge Script', cursive;
-$head-font: 'Raleway', sans-serif;
+$head-font: 'Alegreya Sans SC', sans-serif;
 $text-font: 'Roboto', sans-serif;
 $hover-color: rgb(188, 0, 255);
 $light-color: rgb(224, 147, 255);
@@ -106,9 +106,10 @@ button,a {
 }
 
 .lang-buttons a {
+  display: none;
   text-decoration: none;
   color: #454545;
-  display: inline-block;
+  // display: inline-block;
   margin: 2px 15px;
   @media (max-width: 599px) {
     font-size: 12px;
