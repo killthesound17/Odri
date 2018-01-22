@@ -19,7 +19,7 @@
   <?php include 'preloader.php' ?>
   <div class="container">
     <div class="lang-buttons">
-      <a href="../en/main.php">EN</a>
+      <a href="../ru/main.php">EN</a>
       <a href="#">RU</a>
     </div>
   </div>
@@ -45,9 +45,9 @@
 
     </div>
     </div>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSePE1uzu-lIPhbHiZDzIhdLH8kGUQDHABcgLyEgDgvCNZ_Z2g/viewform?embedded=true" width="350" height="500" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe>
   </div>
 </section>
-
   </main>
   <footer>
     <?php include 'ru-footer.php' ?>
