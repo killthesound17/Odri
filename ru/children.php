@@ -90,6 +90,18 @@
     <img src="../src/img/children/Irina/IMG_8987.jpg" alt="" class="model__imgprev">
     <a href="children_info_irina.php" class="model__name">Ирина</a>
   </div>
+  <div class="model s-z">
+    <img src="../src/img/children/Kim/IMG_4918.jpg" alt="" class="model__imgprev">
+    <a href="children_info_kim.php" class="model__name">Ким</a>
+  </div>
+  <div class="model s-z">
+    <img src="../src/img/children/Kira/IMG_5432.jpg" alt="" class="model__imgprev">
+    <a href="children_info_kira.php" class="model__name">Кира</a>
+  </div>
+  <div class="model s-z">
+    <img src="../src/img/children/ViktoriyaG/IMG_5120.jpg" alt="" class="model__imgprev">
+    <a href="children_info_viktoriag.php" class="model__name">Виктория</a>
+  </div>
 
 </section>
 

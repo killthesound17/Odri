@@ -54,13 +54,19 @@
             </div>
           </div>
           <div class="model-photos">
-            <div class="photos-fullsize">
-              <img src="../src/img/women/Alina/IMG_2907.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/women/Alina/IMG_2977.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/women/Alina/IMG_3048.jpg" alt="" class="photos-fullsize__photo">
+            <div class="slider-buttons slider-buttons--left">
             </div>
+          <div class="model-slider">
+            <div class="model-slide"> <img src="../src/img/women/Alina/IMG_2907.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/Alina/IMG_2977.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/Alina/IMG_3048.jpg" alt="" class="model-slide__photo">  </div>
+            
+
           </div>
-          <div class=""></div>
+          <div class="slider-buttons slider-buttons--right">
+              <!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i> -->
+          </div>
+          </div>
 
         </section>
 

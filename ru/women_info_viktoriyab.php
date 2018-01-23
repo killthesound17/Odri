@@ -54,15 +54,22 @@
             </div>
           </div>
           <div class="model-photos">
-            <div class="photos-fullsize">
-              <img src="../src/img/women/ViktoriiaB/IMG_2505.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/women/ViktoriiaB/IMG_2595.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/women/ViktoriiaB/IMG_2645.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/women/ViktoriiaB/IMG_4544.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/women/ViktoriiaB/IMG_4582.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/women/ViktoriiaB/IMG_4599.jpg" alt="" class="photos-fullsize__photo">
-              <img src="../src/img/women/ViktoriiaB/IMG_4773.jpg" alt="" class="photos-fullsize__photo">
+            <div class="slider-buttons slider-buttons--left">
             </div>
+          <div class="model-slider">
+            <div class="model-slide"> <img src="../src/img/women/ViktoriiaB/IMG_2505.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/ViktoriiaB/IMG_2595.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/ViktoriiaB/IMG_2645.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/ViktoriiaB/IMG_4544.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/ViktoriiaB/IMG_4582.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/ViktoriiaB/IMG_4599.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/ViktoriiaB/IMG_4773.jpg" alt="" class="model-slide__photo">  </div>
+
+
+          </div>
+          <div class="slider-buttons slider-buttons--right">
+              <!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i> -->
+          </div>
           </div>
           <div class=""></div>
 

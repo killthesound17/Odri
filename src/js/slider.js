@@ -1,16 +1,16 @@
-$('.photos-fullsize').slick({
+$('.model-slider').slick({
   dots: false,
   arrows: false,
   infinite: true,
   autoplay: true,
-    autoplaySpeed: 2000,
-  slidesToShow: 2,
+  autoplaySpeed: 2000,
+  slidesToShow: 1,
   slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
         dots: false
