@@ -1,5 +1,5 @@
 <div id="p_prldr">
   <div class="contpre">
-    <span class="svg_anm"></span><br>Пожалуйста подождите<br><small>загружается</small>
+    <span class="svg_anm"></span><br>Загрузка...<br><small></small>
   </div>
 </div>

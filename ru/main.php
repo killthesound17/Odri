@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400|Rochester|Roboto:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Roboto&amp;subset=cyrillic" rel="stylesheet">
+
   <link rel="stylesheet" href="../src/css/normalize.css">
   <link rel="stylesheet" href="../src/css/main.css">
   <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -52,7 +53,7 @@
           </h1>
           <p class="contest-textinfo__desc">Рады сообщить, что Odri Models Management проводит конкурс "Mini Model of the Year" и объявляет набор участниц! </p>
           <p class="contest-textinfo__desc">Ежемесячно по итогам свободного голосования будут выбираться Mini Model месяца, которые в конце года смогут посоревноваться за главный приз - корону и титул "Mini Model of the Year"!</p>
-          <p class="contest-textinfo__desc">Подробнее об участии в конкурсе: <a href="" class="contest-textinfo__link">связаться с нами</a></p>
+          <p class="contest-textinfo__desc">Подробнее об участии в конкурсе: <a href="contacts.php" class="contest-textinfo__link">связаться с нами</a></p>
           <p class="contest-textinfo__desc">Поддержите наших юных красавиц в борьбе за звание "Mini Model of January".</p>
         </div>
         <div class="contest-photo">

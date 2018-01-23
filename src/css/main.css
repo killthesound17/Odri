@@ -30,7 +30,7 @@ main {
   margin-left: -125px;
   margin-top: -75px;
   color: #454545;
-  font-family: "Raleway", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
   letter-spacing: -2px;
@@ -61,7 +61,7 @@ button, a {
   cursor: pointer; }
 
 .pagename {
-  font-family: "Raleway", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   text-transform: uppercase;
   font-size: 1.3em;
   text-align: center;
@@ -200,21 +200,27 @@ button, a {
     margin: auto 0;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     color: #858585; }
 
 .contest-info {
-  padding: 50px 0;
+  padding: 30px 0;
   width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between; }
+  @media (max-width: 699px) {
+    .contest-info {
+      width: 95%; } }
 
 .contest-textinfo {
   width: 57%; }
+  @media (max-width: 699px) {
+    .contest-textinfo {
+      width: 100%; } }
   .contest-textinfo__heading {
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     color: #454545;
     text-transform: uppercase; }
   .contest-textinfo__desc {
@@ -224,6 +230,10 @@ button, a {
 
 .contest-photo {
   width: 30%; }
+  @media (max-width: 699px) {
+    .contest-photo {
+      display: none;
+      width: 0; } }
   .contest-photo__crownimg {
     width: 100%; }
 
@@ -231,8 +241,16 @@ button, a {
   display: flex;
   justify-content: space-between;
   width: 100%; }
+  @media (max-width: 699px) {
+    .minimiss-photos {
+      width: 95%;
+      margin: 0 auto;
+      flex-direction: column; } }
   .minimiss-photos__section {
     width: 33%; }
+    @media (max-width: 699px) {
+      .minimiss-photos__section {
+        width: 100%; } }
   .minimiss-photos__img {
     width: 100%; }
 
@@ -242,94 +260,87 @@ button, a {
 
 .odri-header {
   display: flex;
-  justify-content: space-between; }
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  height: 150px; }
+  @media (max-width: 1120px) {
+    .odri-header {
+      flex-direction: column; } }
+  @media (max-width: 880px) {
+    .odri-header {
+      height: 200px; } }
+  @media (max-width: 420px) {
+    .odri-header {
+      height: 150px; } }
+
+.logo {
+  width: 20%; }
+  @media (max-width: 880px) {
+    .logo {
+      width: 30%; } }
+  @media (max-width: 586px) {
+    .logo {
+      width: 50%; } }
+  @media (max-width: 420px) {
+    .logo {
+      width: 60%; } }
+  .logo__img {
+    padding-top: 5px;
+    display: block;
+    width: 100%; }
+    @media (max-width: 880px) {
+      .logo__img {
+        width: 90%;
+        margin: 0 auto; } }
 
 .navigation {
-  position: relative;
-  width: 100%; }
-  .navigation__logo {
-    width: 100%;
-    height: 60px;
-    padding-top: 5px; }
-    @media (max-width: 599px) {
-      .navigation__logo {
-        width: 90%;
-        margin: 0 auto;
-        height: 50px; } }
-  .navigation__link {
-    text-decoration: none;
-    font-family: "Rochester", cursive;
-    color: #454545;
-    font-size: 1.3em; }
-    @media (max-width: 599px) {
-      .navigation__link {
-        font-size: 1em; } }
-  .navigation__heading {
-    text-align: right;
-    margin: 0; }
-    @media (max-width: 599px) {
-      .navigation__heading {
-        text-align: center; } }
-  @media (max-width: 599px) {
+  width: 77%; }
+  @media (max-width: 1120px) {
     .navigation {
-      width: 100%;
-      margin: 0 auto; } }
+      width: 100%; } }
 
-.odri-nav__list {
+.odri-menu {
   display: flex;
   flex-direction: row;
-  list-style: none;
   justify-content: space-between;
-  font-size: 18px; }
-  @media (max-width: 599px) {
-    .odri-nav__list {
+  margin-top: 70px; }
+  @media (max-width: 1120px) {
+    .odri-menu {
+      margin-top: 0; } }
+  @media (max-width: 880px) {
+    .odri-menu {
       flex-wrap: wrap;
       justify-content: space-between;
-      font-size: 14px; } }
-.odri-nav__list-link {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  color: black;
-  border: 1px solid transparent;
-  padding: 5px 15px; }
-  .odri-nav__list-link--rus {
-    font-family: "Roboto", sans-serif; }
-  @media (max-width: 599px) {
-    .odri-nav__list-link {
-      margin-top: 5px;
-      margin-bottom: 5px; } }
-  .odri-nav__list-link:hover {
-    color: #bc00ff;
-    border: 1px solid #bc00ff;
-    padding: 5px 15px;
-    border-radius: 3px; }
-    @media (max-width: 599px) {
-      .odri-nav__list-link:hover {
-        border: 1px solid transparent; } }
-  .odri-nav__list-link:active {
-    transition: all 0.5s ease-in; }
-@media (max-width: 599px) {
-  .odri-nav {
-    width: 95%;
-    margin: 0 auto; } }
+      width: 95%; } }
+  .odri-menu__item {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 5px 15px; }
+    @media (max-width: 880px) {
+      .odri-menu__item {
+        width: 30%; } }
+    @media (max-width: 420px) {
+      .odri-menu__item {
+        font-size: 0.8em; } }
+    @media (max-width: 586px) {
+      .odri-menu__item {
+        font-size: 0.9em; } }
+    .odri-menu__item:hover a {
+      color: #931cbe;
+      border-radius: 3px;
+      transition: all 0.5s ease-in; }
+  .odri-menu__link {
+    text-decoration: none;
+    color: #454545; }
+    .odri-menu__link:hover a {
+      color: #454545;
+      transition: all 0.5s ease-in; }
 
-.fixed-header {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-  background-color: rgba(255, 255, 255, 0.85);
-  animation: headerreveal 1s ease-in; }
-
-@keyframes headerreveal {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
 .model-filter {
   width: 30%;
   text-align: center;
@@ -344,7 +355,7 @@ button, a {
     text-decoration: none;
     border: none;
     background: none;
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     border: 1px solid transparent;
     padding: 5px 15px; }
     .model-filter__item--rus {
@@ -396,7 +407,7 @@ button, a {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     background-color: rgba(57, 57, 57, 0.73);
     color: #e093ff; }
     .model__name--rus {
@@ -442,7 +453,7 @@ footer {
   .aboutus__list-item {
     margin-top: 5px; }
   .aboutus__list-link {
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -459,7 +470,7 @@ footer {
   width: 50%;
   text-align: right; }
   .contactus__text {
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     font-size: 14px;
     color: white;
     font-weight: 300;
@@ -506,7 +517,7 @@ footer {
       width: 90%;
       margin: 0 auto; } }
   .model-info__name {
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     text-transform: uppercase; }
     .model-info__name--rus {
       font-family: "Roboto", sans-serif; }
@@ -532,7 +543,7 @@ footer {
 
 .model-options {
   width: 70%;
-  font-family: "Raleway", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   text-transform: uppercase;
   font-weight: 400; }
   .model-options--rus {
@@ -545,7 +556,7 @@ footer {
 
 .option-values {
   width: 30%;
-  font-family: "Raleway", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   text-transform: uppercase;
   font-weight: 400; }
   .option-values--rus {
@@ -580,7 +591,7 @@ footer {
     width: 45%;
     text-align: right; }
   .slide__heading {
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     text-transform: uppercase;
     font-size: 30px;
     color: #454545; }
@@ -610,7 +621,7 @@ footer {
       padding-top: 15px;
       padding-bottom: 15px; } }
   .modschool__heading {
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     color: #454545;
     text-align: center; }
     .modschool__heading--rus {
@@ -640,7 +651,7 @@ footer {
     .programinfo {
       width: 100%; } }
   .programinfo__heading {
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     color: #454545; }
     .programinfo__heading--rus {
       font-family: "Roboto", sans-serif;
@@ -663,7 +674,7 @@ footer {
 .text-reg {
   width: 35%; }
   .text-reg__heading {
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     text-transform: uppercase;
     color: #454545; }
     .text-reg__heading--rus {
@@ -713,7 +724,7 @@ footer {
   color: #454545; }
 
 .reg-form__heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   text-transform: uppercase;
   color: #454545; }
   .reg-form__heading--rus {
@@ -766,7 +777,7 @@ input[type="radio"] {
       width: 90%;
       margin: 0 auto; } }
   .contact-info__heading {
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     text-transform: uppercase;
     color: #454545; }
     .contact-info__heading--mod {
@@ -792,7 +803,7 @@ input[type="radio"] {
       width: 100%;
       margin: 0 auto; } }
   .contact-map__heading {
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     text-transform: uppercase;
     color: #454545; }
     .contact-map__heading--rus {
@@ -844,7 +855,7 @@ input[type="radio"] {
         clear: none;
         width: 90%; } }
   .odri-article__heading {
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     color: #454545;
     text-transform: uppercase;
     padding-left: 15px; }
@@ -892,7 +903,7 @@ input[type="radio"] {
       margin: 0 auto; } }
   .crown-slide__award {
     margin-top: 40px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     color: #454545;
     text-transform: uppercase;
     line-height: 16px; }
