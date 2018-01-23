@@ -7,13 +7,14 @@
   @media (max-width: 900px) {
       width: 100%;
       margin: 0 auto;
+      flex-direction: column;
     }
 }
 
 .contact-info {
   width: 45%;
   @media (max-width: 900px) {
-      width: 90%;
+      width: 95%;
       margin: 0 auto;
     }
   &__heading {

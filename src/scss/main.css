@@ -272,7 +272,7 @@ button, a {
       height: 200px; } }
   @media (max-width: 420px) {
     .odri-header {
-      height: 150px; } }
+      height: 180px; } }
 
 .logo {
   width: 20%; }
@@ -768,13 +768,14 @@ input[type="radio"] {
   @media (max-width: 900px) {
     .contact-flex {
       width: 100%;
-      margin: 0 auto; } }
+      margin: 0 auto;
+      flex-direction: column; } }
 
 .contact-info {
   width: 45%; }
   @media (max-width: 900px) {
     .contact-info {
-      width: 90%;
+      width: 95%;
       margin: 0 auto; } }
   .contact-info__heading {
     font-family: "Alegreya Sans SC", sans-serif;
