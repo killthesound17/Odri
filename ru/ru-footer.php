@@ -3,7 +3,7 @@
         <div class="aboutus">
             <!-- <h3 class="aboutus__odri-heading">img</h3> -->
             <ul class="aboutus__list">
-                <li class="aboutus__list-item"><a href="no-info.php" class="aboutus__list-link">О нас</a></li>
+                <li class="aboutus__list-item"><a href="about_us.php" class="aboutus__list-link">О нас</a></li>
                 <!-- <li class="aboutus__list-item"><a href="" class="aboutus__list-link">News</a></li> -->
                 <li class="aboutus__list-item"><a href="model_form.php" class="aboutus__list-link">Стать моделью</a></li>
             </ul>
