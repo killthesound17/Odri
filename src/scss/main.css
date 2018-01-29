@@ -964,8 +964,10 @@ input[type="radio"] {
     display: block;
     margin: 0 auto; }
 
-.aboutus-wrapper {
-  height: 100vh; }
+@media (max-width: 900px) {
+  .aboutus-wrapper {
+    width: 95%;
+    margin: 0 auto; } }
 
 .aboutus-info__heading {
   font-family: "Alegreya Sans SC", sans-serif;
@@ -995,31 +997,59 @@ input[type="radio"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+  @media (max-width: 586px) {
+    .director-info {
+      flex-direction: column; } }
   .director-info__photo {
     width: 40%; }
+    @media (max-width: 586px) {
+      .director-info__photo {
+        width: 95%;
+        margin: 0 auto; } }
   .director-info__photoimg {
     width: 100%; }
   .director-info__desc {
     width: 55%;
     position: relative; }
+    @media (max-width: 586px) {
+      .director-info__desc {
+        width: 95%;
+        margin: 0 auto; } }
   .director-info__desctext {
     font-family: "Roboto", sans-serif;
     color: #454545;
     font-size: 1.4em;
     text-align: justify; }
+    @media (max-width: 900px) {
+      .director-info__desctext {
+        font-size: 1.1em; } }
+    @media (max-width: 586px) {
+      .director-info__desctext {
+        font-size: 1.1em; } }
   .director-info__descwrapper {
     position: absolute;
     top: 50%;
     transform: translateY(-50%); }
+    @media (max-width: 586px) {
+      .director-info__descwrapper {
+        position: inherit;
+        transform: none; } }
 
 .team-info {
+  margin-top: 50px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+  @media (max-width: 586px) {
+    .team-info {
+      flex-wrap: wrap; } }
 
 .teammember {
   width: 23%; }
+  @media (max-width: 586px) {
+    .teammember {
+      width: 48%; } }
   .teammember__photo {
     width: 100%; }
   .teammember__photoimg {

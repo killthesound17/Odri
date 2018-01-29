@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Roboto&amp;subset=cyrillic" rel="stylesheet">
-
     <link rel="stylesheet" href="../src/css/normalize.css">
     <link rel="stylesheet" href="../src/css/slick.css">
     <link rel="stylesheet" href="../src/css/main.css">
     <script type="text/javascript" src="../src/js/jquery-3.2.1.min.js">
     </script>
-    <title>Become a Model - ODRI Model Management</title>
+    <title>About Us - ODRI Model Management</title>
 </head>
 
 <body>

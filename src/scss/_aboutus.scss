@@ -1,5 +1,10 @@
 .aboutus-wrapper {
-  height: 100vh;
+  @media (max-width: 900px) {
+    width: 95%;
+    margin: 0 auto;
+
+  }
+
 }
 
 .aboutus-info {
@@ -36,9 +41,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+    @media (max-width: 586px) {
+      flex-direction: column;
+    }
+  @media (max-width: 799px) {
+
+  }
 
   &__photo {
     width: 40%;
+    @media (max-width: 586px) {
+      width: 95%;
+      margin: 0 auto;
+    }
   }
   &__photoimg {
     width: 100%;
@@ -46,27 +61,49 @@
   &__desc {
     width: 55%;
     position: relative;
+    @media (max-width: 586px) {
+      width: 95%;
+      margin: 0 auto;
+
+    }
   }
   &__desctext {
     font-family: $text-font;
     color: #454545;
     font-size: 1.4em;
     text-align: justify;
+    @media (max-width: 900px) {
+      font-size: 1.1em;
+    }
+    @media (max-width: 586px) {
+      font-size: 1.1em;
+    }
   }
   &__descwrapper {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    @media (max-width: 586px) {
+      position: inherit;
+      transform: none;
+    }
   }
 }
 .team-info {
+  margin-top: 50px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @media (max-width: 586px) {
+    flex-wrap: wrap;
+  }
 }
 .teammember {
   width: 23%;
+  @media (max-width: 586px) {
+    width: 48%;
+  }
   &__photo {
     width: 100%;
   }
