@@ -1,0 +1,90 @@
+.aboutus-wrapper {
+  height: 100vh;
+}
+
+.aboutus-info {
+
+  &__heading {
+    font-family: $head-font;
+    text-transform: uppercase;
+    color:#454545;
+    text-align: center;
+  }
+  &__desc {
+    font-family: $text-font;
+    color: #454545;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  &__headname {
+    font-family: $head-font;
+    text-transform: uppercase;
+    color:#454545;
+    letter-spacing: 2px;
+    font-size: 1.8em;
+  }
+  &__headpos {
+    font-family: $text-font;
+    color: #454545;
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 0;
+    font-size: 1.4em;
+  }
+}
+.director-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__photo {
+    width: 40%;
+  }
+  &__photoimg {
+    width: 100%;
+  }
+  &__desc {
+    width: 55%;
+    position: relative;
+  }
+  &__desctext {
+    font-family: $text-font;
+    color: #454545;
+    font-size: 1.4em;
+    text-align: justify;
+  }
+  &__descwrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+.team-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.teammember {
+  width: 23%;
+  &__photo {
+    width: 100%;
+  }
+  &__photoimg {
+    width: 100%;
+  }
+  &__name {
+    font-family: $head-font;
+    text-transform: uppercase;
+    color: #454545;
+    text-align: center;
+  }
+  &__pos {
+    font-family: $text-font;
+    color: #454545;
+    text-align: center;
+    font-weight: 300;
+    text-transform: lowercase;
+    font-style: italic;
+  }
+}

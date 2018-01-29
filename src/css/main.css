@@ -964,4 +964,77 @@ input[type="radio"] {
     display: block;
     margin: 0 auto; }
 
+.aboutus-wrapper {
+  height: 100vh; }
+
+.aboutus-info__heading {
+  font-family: "Alegreya Sans SC", sans-serif;
+  text-transform: uppercase;
+  color: #454545;
+  text-align: center; }
+.aboutus-info__desc {
+  font-family: "Roboto", sans-serif;
+  color: #454545;
+  font-size: 1.2em;
+  text-align: center; }
+.aboutus-info__headname {
+  font-family: "Alegreya Sans SC", sans-serif;
+  text-transform: uppercase;
+  color: #454545;
+  letter-spacing: 2px;
+  font-size: 1.8em; }
+.aboutus-info__headpos {
+  font-family: "Roboto", sans-serif;
+  color: #454545;
+  font-style: italic;
+  font-weight: 300;
+  padding-top: 0;
+  font-size: 1.4em; }
+
+.director-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .director-info__photo {
+    width: 40%; }
+  .director-info__photoimg {
+    width: 100%; }
+  .director-info__desc {
+    width: 55%;
+    position: relative; }
+  .director-info__desctext {
+    font-family: "Roboto", sans-serif;
+    color: #454545;
+    font-size: 1.4em;
+    text-align: justify; }
+  .director-info__descwrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.team-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.teammember {
+  width: 23%; }
+  .teammember__photo {
+    width: 100%; }
+  .teammember__photoimg {
+    width: 100%; }
+  .teammember__name {
+    font-family: "Alegreya Sans SC", sans-serif;
+    text-transform: uppercase;
+    color: #454545;
+    text-align: center; }
+  .teammember__pos {
+    font-family: "Roboto", sans-serif;
+    color: #454545;
+    text-align: center;
+    font-weight: 300;
+    text-transform: lowercase;
+    font-style: italic; }
+
 /*# sourceMappingURL=main.css.map */
