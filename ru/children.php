@@ -91,7 +91,7 @@
     <a href="children_info_irina.php" class="model__name">Ирина</a>
   </div>
   <div class="model s-z">
-    <img src="../src/img/children/Kim/IMG_4918.jpg" alt="" class="model__imgprev">
+    <img src="../src/img/children/Kim/IMG_4918-Copy.jpg" alt="" class="model__imgprev">
     <a href="children_info_kim.php" class="model__name">Ким</a>
   </div>
   <div class="model s-z">
@@ -101,6 +101,10 @@
   <div class="model s-z">
     <img src="../src/img/children/ViktoriyaG/IMG_5120.jpg" alt="" class="model__imgprev">
     <a href="children_info_viktoriag.php" class="model__name">Виктория</a>
+  </div>
+  <div class="model s-z">
+    <img src="../src/img/children/Angelina/IMG_5010-Copy.jpg" alt="" class="model__imgprev">
+    <a href="children_info_angelina.php" class="model__name">Ангелина</a>
   </div>
 
 </section>
