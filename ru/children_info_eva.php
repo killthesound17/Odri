@@ -67,8 +67,17 @@
           <div class="model-slider">
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_1806.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_1846.jpg" alt="" class="model-slide__photo">  </div>
-            <div class="model-slide"> <img src="../src/img/children/Eva//IMG_1930.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_1930.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_20251.JPG" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8292.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8298.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8335.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8345.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8457.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8534.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8466.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8470.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8523.jpg" alt="" class="model-slide__photo">  </div>
 
           </div>
           <div class="slider-buttons slider-buttons--right">
