@@ -51,26 +51,30 @@
           <h1 class="contest-textinfo__heading">
           Конкурс от Odri Models
           </h1>
-          <p class="contest-textinfo__desc">Рады сообщить, что Odri Models Management проводит конкурс "Mini Model of the Year" и объявляет набор участниц! </p>
-          <p class="contest-textinfo__desc">Ежемесячно по итогам свободного голосования будут выбираться Mini Model месяца, которые в конце года смогут посоревноваться за главный приз - корону и титул "Mini Model of the Year"!</p>
-          <p class="contest-textinfo__desc">Подробнее об участии в конкурсе: <a href="contacts.php" class="contest-textinfo__link">связаться с нами</a></p>
-          <p class="contest-textinfo__desc">Поддержите наших юных красавиц в борьбе за звание "Mini Model of January".</p>
+          <p class="contest-textinfo__desc">Поздравляем победительницу январского конкурса, Дарину Дудченко! </p>
+          <p class="contest-textinfo__desc">Юная красавица завоевала симпатию нашей аудитории, которая отдала ей 60,8% своих голосов.</p>
+          <p class="contest-textinfo__desc">Корона и диплом уже едут к своей обладательнице в г.Каланчак, будут мотивировать и вдохновлять её при подготовке к главному событию года, финалу Mini Model of the Year.</p>
+          <p class="contest-textinfo__desc">Так же, не можем не отметить Владиславу Скакун и Александру Скоробогач, девочки набрали одинаковое количество голосов (19,6%) и так же получают поощрительные призы.</p>
+          <p class="contest-textinfo__desc"><a href="contest_mini_model.php" class="contest-textinfo__link">Подробнее о конкурсе и результатах</a></p>
+          <p class="contest-textinfo__desc">Пришёл февраль, а значит настало время представить Вам наших прекрасный номинанток Mini Model of February.</p>
+
+
         </div>
         <div class="contest-photo">
-          <img src="../src/img/contest/modelOfJanuary.png" alt="" class="contest-photo__crownimg">
+          <img src="../src/img/contest/contast_logo.png" alt="" class="contest-photo__crownimg">
         </div>
 
       </div>
       <div class="minimiss-photos">
         <div class="minimiss-photos__section">
-         <img src="../src/img/contest/dudchenko.jpg" alt="" class="minimiss-photos__img"></div>
+         <img src="../src/img/contest/terzi_angelina_contest.jpg" alt="" class="minimiss-photos__img"></div>
         <div class="minimiss-photos__section">
-         <img src="../src/img/contest/skakun.jpg" alt="" class="minimiss-photos__img">    </div>
+         <img src="../src/img/contest/georgieva_viktoriia_contest.jpg" alt="" class="minimiss-photos__img">    </div>
         <div class="minimiss-photos__section">
-         <img src="../src/img/contest/skorobogach.jpg" alt="" class="minimiss-photos__img">
+         <img src="../src/img/contest/zalevskaia_kristna_contest.jpg" alt="" class="minimiss-photos__img">
          </div>
       </div>
-      <div class="polesection"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTbqUkWY2qZT0RMunHwW8OZODTxVv6oBsItQ-b9v1howcMjw/viewform?embedded=true" width="500" height="750" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe></div>
+      <div class="polesection"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc0vk7vJlnNVPQ28vZq0rACT1TQSgdtkR-APXS_tlx5BFsHNA/viewform?embedded=true" width="500" height="750" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe></div>
     </div>
 
 
