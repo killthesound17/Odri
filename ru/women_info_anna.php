@@ -60,6 +60,10 @@
             <div class="model-slide"> <img src="../src/img/women/Anna/IMG_2151.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/women/Anna/IMG_2234.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/women/Anna/IMG_2351.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/Anna/IMG-12151.JPG" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/Anna/IMG-12171.JPG" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/Anna/IMG-12181.JPG" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/women/Anna/IMG-12191.JPG" alt="" class="model-slide__photo">  </div>
 
 
           </div>

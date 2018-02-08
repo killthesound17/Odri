@@ -78,6 +78,11 @@
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8466.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8470.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8523.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/DSC04596.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/DSC04613.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/DSC04859.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/DSC04872.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/DSC04905.jpg" alt="" class="model-slide__photo">  </div>
 
           </div>
           <div class="slider-buttons slider-buttons--right">

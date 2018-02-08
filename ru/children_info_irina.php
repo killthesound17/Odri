@@ -69,6 +69,11 @@
             <div class="model-slide"> <img src="../src/img/children/Irina/IMG_9348.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Irina/IMG_9432.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Irina/IMG_9485.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Irina/DSC04668.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Irina/DSC04675.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Irina/DSC04754.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Irina/DSC04760.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Irina/DSC04768.jpg" alt="" class="model-slide__photo">  </div>
 
           </div>
           <div class="slider-buttons slider-buttons--right">

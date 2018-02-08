@@ -65,6 +65,13 @@
               <div class="model-slide"> <img src="../src/img/children/ViktoriyaG/IMG_5032.jpg" alt="" class="model-slide__photo">  </div>
               <div class="model-slide"> <img src="../src/img/children/ViktoriyaG/IMG_5120.jpg" alt="" class="model-slide__photo">  </div>
               <div class="model-slide"> <img src="../src/img/children/ViktoriyaG/IMG_5124.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/ViktoriyaG/DSC04640.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/ViktoriyaG/DSC04645.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/ViktoriyaG/DSC04662.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/ViktoriyaG/DSC04835.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/ViktoriyaG/DSC04844.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/ViktoriyaG/DSC04855.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/ViktoriyaG/DSC04936.jpg" alt="" class="model-slide__photo">  </div>
             </div>
             <div class="slider-buttons slider-buttons--right">
                 <!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i> -->
