@@ -36,6 +36,61 @@
       <div class="container">
         <h1 class="pagename pagename--rus">Новости</h1>
         <article class="odri-article">
+          <img src="../src/img/articles/akkerman/IMG_9780.jpg" alt="" class="odri-article__img">
+
+          <h2 class="odri-article__heading">Odri Models впервые в Белгороде-Днестровском</h2>
+          <img src="../src/img/articles/akkerman/IMG_9741.jpg" alt="" class="odri-article__img odri-article__img--right">
+          <p class="odri-article__date">Опубликовано: 2017/02/07, автор: Полина Платонова</p>
+
+          <p class="odri-article__text">Прошлые выходные модельная школа Odri Models провела в Белгороде-Днестровском. Здесь мы организовали несколько пробных занятий для разных возрастных групп.</p>
+          <p class="odri-article__text">И теперь рады предоставить небольшой фотоотчёт и сообщить что будем проводить занятия и тут!</p>
+          <p class="odri-article__text">Для подробной информации  <a href="contacts.php" class="contest-textinfo__link ">свяжитесь с нами</a>.</p>
+
+          <div class="sub-img">
+
+          <img class="odri-article__sub-img" src="../src/img/articles/akkerman/IMG_9723.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/akkerman/IMG_9738.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/akkerman/IMG_9768.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/akkerman/IMG_9818.jpg" alt="">
+          </div>
+        </article>
+        <hr>
+        <article class="odri-article">
+
+          <h2 class="odri-article__heading">Первая фотосессия победительницы "Мини Мисс Бессарабия"</h2>
+          <p class="odri-article__date">Опубликовано: 2017/02/07, автор: Полина Платонова</p>
+
+          <p class="odri-article__text">Победительница конкурса "Мини Мисс Бессарабия", очаровательная Виктория отснялась в своей первой профессиональной фотосессии.</p>
+          <p class="odri-article__text">Желаем юной красавице новых побед!</p>
+          <p class="odri-article__text"> <a href="contacts.php" class="contest-textinfo__link">связаться с нами</a></p>
+          <div class="sub-img">
+
+          <img class="odri-article__sub-img" src="../src/img/articles/vika-photoshoot/IMG_9548.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/vika-photoshoot/IMG_9581.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/vika-photoshoot/IMG_9618.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/vika-photoshoot/IMG_9696.jpg" alt="">
+          </div>
+        </article>
+        <hr>
+        <article class="odri-article">
+          <img src="../src/img/articles/lessons/IMG_1057.jpg" alt="" class="odri-article__img">
+          <img src="../src/img/articles/lessons/002.jpg" alt="" class="odri-article__img odri-article__img--right">
+          <h2 class="odri-article__heading">Занятия в Odri Models</h2>
+          <p class="odri-article__date">Опубликовано: 2017/02/07, автор: Полина Платонова</p>
+
+          <p class="odri-article__text">А вот так проходят занятия в нашей школе. Маленькие принцессы готовятся стать настоящими звёздами!</p>
+          <p class="odri-article__text">Будем рады увидеть вас на пробном бесплатном занятии!</p>
+          <p class="odri-article__text"> <a href="contacts.php" class="contest-textinfo__link">связаться с нами</a></p>
+          <div class="sub-img">
+
+          <img class="odri-article__sub-img" src="../src/img/articles/lessons/IMG_0358.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/lessons/IMG_0452.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/lessons/IMG_1042.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/lessons/IMG_1068.jpg" alt="">
+          </div>
+        </article>
+        <hr>
+        <article class="odri-article">
           <img src="../src/img/articles/Verstka-Mir-Detstva-34_Gladun[9815]sisters.jpg" alt="" class="odri-article__img">
           <h2 class="odri-article__heading">Антонина и Наталья Гладун в "Мире детства и чудес"</h2>
           <p class="odri-article__date">Опубликовано: 2017/12/19, автор: Полина Платонова</p>
@@ -46,6 +101,7 @@
           <div class="odri-article__pic-container">
            <img src="../src/img/articles/Verstka-Mir-Detstva-34_Gladun[9815]2.jpg" alt="" class="odri-article__container-img"></div>
         </article>
+        <hr>
         <article class="odri-article">
           <img src="../src/img/articles/crowns.jpg" alt="" class="odri-article__img">
           <img src="../src/img/articles/001.jpg" alt="" class="odri-article__img odri-article__img--right">
