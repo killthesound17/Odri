@@ -42,6 +42,7 @@
                     <p class="text-reg__text">If you would prefer to come in and see us - contact your local agency and ask for the “open call” schedule.</p>
                 </div>
                 <div class="form-reg">
+
                     <form action="../src/php/send.php" class="reg-form" enctype="multipart/form-data" method="post">
                         <h2 class="reg-form__heading reg-form__heading--rus">Контактная информация</h2>
                         <div class="field-flex">

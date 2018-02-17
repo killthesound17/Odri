@@ -420,7 +420,8 @@ button, a {
     .model__name--rus {
       font-family: "Roboto", sans-serif; }
   .model:hover {
-    filter: grayscale(0%); }
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in; }
 
 footer {
   background-color: #454545; }
@@ -623,7 +624,8 @@ footer {
   filter: grayscale(100%); }
 
 .model-slide__photo:hover {
-  filter: grayscale(0%); }
+  filter: grayscale(0%);
+  transition: all 0.3s ease-in; }
 
 .slider-section {
   width: 100%;

@@ -33,7 +33,7 @@
 
 
 <div class="container">
-  <h1 class="pagename">Женщины</h1>
+  <h1 class="pagename">Девушки</h1>
   <!-- <?php include 'filter-buttons.php' ?> -->
 <section class="models">
   <div class="model a-j">
