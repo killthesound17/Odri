@@ -60,6 +60,11 @@
     <img src="../src/img/women/Alexandra2/photo1.jpg" alt="" class="model__imgprev">
     <a href="women_info_alexa.php" class="model__name">Александра</a>
   </div>
+  <div class="model s-z">
+  </div>
+  <div class="model s-z">
+  </div>
+
 
 </section>
 

@@ -57,13 +57,27 @@
             <div class="slider-buttons slider-buttons--left">
             </div>
           <div class="model-slider">
-            <div class="model-slide"> <img src="../src/img/women/Anna/IMG_2151.jpg" alt="" class="model-slide__photo">  </div>
-            <div class="model-slide"> <img src="../src/img/women/Anna/IMG_2234.jpg" alt="" class="model-slide__photo">  </div>
-            <div class="model-slide"> <img src="../src/img/women/Anna/IMG_2351.jpg" alt="" class="model-slide__photo">  </div>
-            <div class="model-slide"> <img src="../src/img/women/Anna/IMG-12151.JPG" alt="" class="model-slide__photo">  </div>
-            <div class="model-slide"> <img src="../src/img/women/Anna/IMG-12171.JPG" alt="" class="model-slide__photo">  </div>
-            <div class="model-slide"> <img src="../src/img/women/Anna/IMG-12181.JPG" alt="" class="model-slide__photo">  </div>
-            <div class="model-slide"> <img src="../src/img/women/Anna/IMG-12191.JPG" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide">
+              <img src="../src/img/women/Anna/IMG_2151.jpg" alt="" class="model-slide__photo">
+            </div>
+            <div class="model-slide">
+              <img src="../src/img/women/Anna/IMG_2234.jpg" alt="" class="model-slide__photo">
+            </div>
+            <div class="model-slide">
+              <img src="../src/img/women/Anna/IMG_2351.jpg" alt="" class="model-slide__photo">
+            </div>
+            <div class="model-slide">
+              <img src="../src/img/women/Anna/img-1.jpg" alt="" class="model-slide__photo">
+             </div>
+            <div class="model-slide">
+               <img src="../src/img/women/Anna/img-2.jpg" alt="" class="model-slide__photo">
+             </div>
+            <div class="model-slide">
+               <img src="../src/img/women/Anna/img-3.jpg" alt="" class="model-slide__photo">
+             </div>
+            <div class="model-slide">
+              <img src="../src/img/women/Anna/img-4.jpg" alt="" class="model-slide__photo">
+            </div>
 
 
           </div>

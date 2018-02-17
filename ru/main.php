@@ -57,8 +57,6 @@
           <p class="contest-textinfo__desc">Так же, не можем не отметить Владиславу Скакун и Александру Скоробогач, девочки набрали одинаковое количество голосов (19,6%) и так же получают поощрительные призы.</p>
           <p class="contest-textinfo__desc"><a href="contest_mini_model.php" class="contest-textinfo__link">Подробнее о конкурсе и результатах</a></p>
           <p class="contest-textinfo__desc">Пришёл февраль, а значит настало время представить Вам наших прекрасный номинанток Mini Model of February.</p>
-
-
         </div>
         <div class="contest-photo">
           <img src="../src/img/contest/contast_logo.png" alt="" class="contest-photo__crownimg">

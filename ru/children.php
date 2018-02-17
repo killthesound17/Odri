@@ -103,6 +103,14 @@
     <img src="../src/img/children/Angelina/IMG_5010-Copy.jpg" alt="" class="model__imgprev">
     <a href="children_info_angelina.php" class="model__name">Ангелина</a>
   </div>
+  <div class="model s-z">
+    <img src="../src/img/children/Andrey/IMG_0332.jpg" alt="" class="model__imgprev">
+    <a href="children_info_andrey.php" class="model__name">Андрей</a>
+  </div>
+  <div class="model s-z">
+  </div>
+  <div class="model s-z">
+  </div>
 
 </section>
 

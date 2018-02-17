@@ -36,6 +36,27 @@
       <div class="container">
         <h1 class="pagename pagename--rus">Новости</h1>
         <article class="odri-article">
+          <img src="../src/img/articles/victoriia-belle/main2DSC04813.jpg" alt="" class="odri-article__img">
+
+          <h2 class="odri-article__heading">Съемка для Victoria Belle Boutique</h2>
+          <img src="../src/img/articles" alt="" class="odri-article__img odri-article__img--right">
+          <p class="odri-article__date">Опубликовано: 2017/02/11, автор: Полина Платонова</p>
+
+          <p class="odri-article__text">Чудесная съемка в одежде Victoria Belle с нашими звёздочками Евой, Ириной и Викторией.</p>
+          <p class="odri-article__text">Небольшой фотоотчёт о том как это было.</p>
+          <p class="odri-article__text">Куколки освещали площадку своими улыбками, эмоциями, позитивным настроением, и покорили профессиональным подходом к работе.</p>
+          <p class="odri-article__text">Для подробной информации  <a href="contacts.php" class="contest-textinfo__link ">свяжитесь с нами</a>.</p>
+
+          <div class="sub-img">
+
+          <img class="odri-article__sub-img" src="../src/img/articles/victoriia-belle/DSC04905.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/victoriia-belle/DSC04645.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/victoriia-belle/DSC04668.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/victoriia-belle/main-vb_DSC04736.jpg" alt="">
+          </div>
+        </article>
+        <hr>
+        <article class="odri-article">
           <img src="../src/img/articles/akkerman/IMG_9780.jpg" alt="" class="odri-article__img">
 
           <h2 class="odri-article__heading">Odri Models впервые в Белгороде-Днестровском</h2>
