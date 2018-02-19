@@ -8,7 +8,9 @@ $light-color: rgb(224, 147, 255);
 body {
   background-image: url('../img/bgr-pic.jpg');
 
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   display: flex;
  min-height: 100vh;
  flex-direction: column;

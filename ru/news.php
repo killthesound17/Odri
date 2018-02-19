@@ -36,12 +36,96 @@
       <div class="container">
         <h1 class="pagename pagename--rus">Новости</h1>
         <article class="odri-article">
+          <img src="../src/img/articles/newbelgorod/27798342_152212122131671_3165942132362547368_o.jpg" alt="" class="odri-article__img">
+          <h2 class="odri-article__heading">Новые лица Odri Models Management</h2>
+          <img src="../src/img/articles" alt="" class="odri-article__img odri-article__img--right">
+          <p class="odri-article__date">Опубликовано: 2017/02/19, автор: Полина Платонова</p>
+          <p class="odri-article__text">Знакомим Вас с новыми лицами Odri models management.</p>
+          <p class="odri-article__text">К нам присоединились замечательные ребята из Белгорода-Днестровского.</p>
+          <p class="odri-article__text">Юные принцы и принцессы ответственно подходят к подготовке и скоро будут покорять самые высокие вершины модельного мира.</p>
+          <p class="odri-article__text">Аккерман может гордится своими маленькими талантами.</p>
+          <p class="odri-article__text">Для подробной информации как стать частью нашей команды победителей <a href="contacts.php" class="contest-textinfo__link ">свяжитесь с нами</a>.</p>
+          <div class="img-grid">
+
+            <div class="grid-item">
+              <img src="../src/img/articles/newbelgorod/27858526_152212005465016_3343936561317389202_n.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item">
+              <img src="../src/img/articles/newbelgorod/27973091_152212022131681_4765990697303254761_n.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item">
+              <img src="../src/img/articles/newbelgorod/28056015_152211942131689_7808681556448338340_n.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item">
+              <img src="../src/img/articles/newbelgorod/28055800_152212042131679_2795004462133142465_n.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item grid-item--horiz">
+              <img src="../src/img/articles/newbelgorod/27798342_152212122131671_3165942132362547368_o.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item grid-item--horiz">
+              <img src="../src/img/articles/newbelgorod/27993231_152211922131691_8157083216345913700_o.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item grid-item--med">
+              <img src="../src/img/articles/newbelgorod/28276503_152212145465002_8951788284048540983_n.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item grid-item--med">
+              <img src="../src/img/articles/newbelgorod/28058875_152212095465007_4370843990199116769_n.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item grid-item--med">
+              <img src="../src/img/articles/newbelgorod/28056281_152211932131690_3932472014825829136_n.jpg" alt="" class="grid-item__img">
+            </div>
+
+          </div>
+          <!-- <div class="sub-img">
+          <img class="odri-article__sub-img" src="../src/img/articles/victoriia-belle/DSC04905.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/victoriia-belle/DSC04645.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/victoriia-belle/DSC04668.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/articles/victoriia-belle/main-vb_DSC04736.jpg" alt="">
+          </div> -->
+        </article>
+        <article class="odri-article">
+          <h2 class="odri-article__heading">Новая съемка загадочной Анны</h2>
+          <p class="odri-article__date">Опубликовано: 2017/02/09, автор: Полина Платонова</p>
+          <div class="sub-img">
+          <img class="odri-article__sub-img odri-article__sub-img--mod" src="../src/img/articles/new_photoshoot/anna_new.jpg" alt="">
+          <img class="odri-article__sub-img odri-article__sub-img--mod" src="../src/img/articles/new_photoshoot/anna_new2.jpg" alt="">
+          <img class="odri-article__sub-img odri-article__sub-img--mod" src="../src/img/articles/new_photoshoot/anna_new3.jpg" alt="">
+          </div>
+        </article>
+        <hr>
+        <article class="odri-article">
+
+          <h2 class="odri-article__heading">Новая сьемка куколки Лены</h2>
+          <p class="odri-article__date">Опубликовано: 2017/02/19, автор: Полина Платонова</p>
+          <div class="sub-img">
+
+          <img class="odri-article__sub-img odri-article__sub-img--mod" src="../src/img/articles/new_photoshoot/lena_new.jpg" alt="">
+          <img class="odri-article__sub-img odri-article__sub-img--mod" src="../src/img/articles/new_photoshoot/lena_new3.jpg" alt="">
+          <img class="odri-article__sub-img odri-article__sub-img--mod" src="../src/img/articles/new_photoshoot/lena_new_1.jpg" alt="">
+
+          </div>
+        </article>
+        <hr>
+        <article class="odri-article">
+
+          <h2 class="odri-article__heading">Первая съёмка Андрея</h2>
+          <p class="odri-article__date">Опубликовано: 2017/02/19, автор: Полина Платонова</p>
+
+          <div class="sub-img">
+          <img class="odri-article__sub-img" src="../src/img/children/Andrey/IMG_0186.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/children/Andrey/IMG_0208.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/children/Andrey/IMG_0273.jpg" alt="">
+          <img class="odri-article__sub-img" src="../src/img/children/Andrey/IMG_0280.jpg" alt="">
+          </div>
+        </article>
+        <hr>
+
+        <article class="odri-article">
           <img src="../src/img/articles/victoriia-belle/main2DSC04813.jpg" alt="" class="odri-article__img">
 
           <h2 class="odri-article__heading">Съемка для Victoria Belle Boutique</h2>
           <img src="../src/img/articles" alt="" class="odri-article__img odri-article__img--right">
           <p class="odri-article__date">Опубликовано: 2017/02/11, автор: Полина Платонова</p>
-
           <p class="odri-article__text">Чудесная съемка в одежде Victoria Belle с нашими звёздочками Евой, Ириной и Викторией.</p>
           <p class="odri-article__text">Небольшой фотоотчёт о том как это было.</p>
           <p class="odri-article__text">Куколки освещали площадку своими улыбками, эмоциями, позитивным настроением, и покорили профессиональным подходом к работе.</p>

@@ -1,6 +1,8 @@
 body {
   background-image: url("../img/bgr-pic.jpg");
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -907,6 +909,8 @@ input[type="radio"] {
     width: 24.5%;
     display: inline-block;
     clear: both; }
+    .odri-article__sub-img--mod {
+      width: 33%; }
     @media (max-width: 599px) {
       .odri-article__sub-img {
         clear: none;
@@ -972,6 +976,31 @@ input[type="radio"] {
     width: 100%;
     display: block;
     margin: 0 auto; }
+
+.img-grid {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.grid-item {
+  width: 24.8%; }
+  @media (max-width: 599px) {
+    .grid-item {
+      width: 100%; } }
+  .grid-item--horiz {
+    width: 49.8%; }
+    @media (max-width: 599px) {
+      .grid-item--horiz {
+        width: 100%; } }
+  .grid-item--med {
+    width: 33.2%; }
+    @media (max-width: 599px) {
+      .grid-item--med {
+        width: 100%; } }
+  .grid-item__img {
+    width: 100%; }
 
 @media (max-width: 900px) {
   .aboutus-wrapper {

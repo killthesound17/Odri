@@ -37,6 +37,9 @@
     width: 24.5%;
     display: inline-block;
     clear: both;
+    &--mod {
+      width: 33%;
+    }
     @media (max-width: 599px) {
       clear: none;
       width: 90%;
@@ -115,5 +118,34 @@
     width: 100%;
 display: block;
 margin: 0 auto;
+  }
+}
+
+.img-grid {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.grid-item {
+  width: 24.8%;
+  @media (max-width: 599px) {
+    width: 100%;
+  }
+  &--horiz {
+    width: 49.8%;
+    @media (max-width: 599px) {
+      width: 100%;
+    }
+  }
+  &--med {
+    width: 33.2%;
+    @media (max-width: 599px) {
+      width: 100%;
+    }
+  }
+  &__img {
+    width: 100%;
   }
 }
