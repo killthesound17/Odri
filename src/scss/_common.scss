@@ -5,12 +5,22 @@ $text-font: 'Roboto', sans-serif;
 $hover-color: rgb(188, 0, 255);
 $light-color: rgb(224, 147, 255);
 
+@font-face {
+    font-family: 'Font Awesome Reg'; /* Имя шрифта */
+    src: url('../fonts/Font_Awesome_5_Free-Regular-400.otf'); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+       font-family: 'Font Awesome Reg Brands'; /* Имя шрифта */
+       src: url('../fonts/Font_Awesome_5_Brands-Regular-400.otf '); /* Путь к файлу со шрифтом */
+      }
+$awesome-brands: 'Font Awesome Reg Brands';
+$awesome-reg: 'Font Awesome Reg';
+
 body {
   background-image: url('../img/bgr-pic.jpg');
 
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   display: flex;
  min-height: 100vh;
  flex-direction: column;

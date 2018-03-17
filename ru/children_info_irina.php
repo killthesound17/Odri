@@ -40,14 +40,14 @@
             <h2 class="model-info__name model-info__name--rus">Ирина</h2>
             <div class="options">
               <ul class="model-options">
-                <li class="model-options__option model-options__option--rus">Рост</li>
-                <li class="model-options__option model-options__option--rus">Бюст</li>
-                <li class="model-options__option model-options__option--rus">Талия</li>
-                <li class="model-options__option model-options__option--rus">Бедра</li>
-                <li class="model-options__option model-options__option--rus">Обувь</li>
-                <li class="model-options__option model-options__option--rus">Волосы</li>
-                <li class="model-options__option model-options__option--rus">Глаза</li>
-                <li class="model-options__option model-options__option--rus">Возраст</li>
+                <li class="model-options__option model-options__option--title">Рост</li>
+                <li class="model-options__option model-options__option--title">Бюст</li>
+                <li class="model-options__option model-options__option--title">Талия</li>
+                <li class="model-options__option model-options__option--title">Бедра</li>
+                <li class="model-options__option model-options__option--title">Обувь</li>
+                <li class="model-options__option model-options__option--title">Волосы</li>
+                <li class="model-options__option model-options__option--title">Глаза</li>
+                <li class="model-options__option model-options__option--title">Возраст</li>
               </ul>
               <ul class="option-values">
                 <li class="option-values__value">146cm</li>
@@ -59,6 +59,14 @@
                 <li class="option-values__value option-values__value--rus">серые</li>
                 <li class="option-values__value">8</li>
               </ul>
+            </div>
+            <div class="contest-section">
+              <h3 class="contest-section__name">Конкурсы</h3>
+              <ul class="contest-section__list">
+                  <li class="contest-section__listitem"><span class="check"></span> Титул "Grand Prix", Golden Talent of Ukraine</li>
+                  <li class="contest-section__listitem"><span class="check"></span> Титул "Grand Prix", Golden Crown of Ukraine</li>
+                  <li class="contest-section__listitem"><span class="check"></span> Титул "Кришталева Царівна 2017"</li>
+              </u>
             </div>
           </div>
           <div class="model-photos">
@@ -74,6 +82,7 @@
             <div class="model-slide"> <img src="../src/img/children/Irina/DSC04754.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Irina/DSC04760.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Irina/DSC04768.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Irina/IMG_0610Ira.jpg" alt="" class="model-slide__photo">  </div>
 
           </div>
           <div class="slider-buttons slider-buttons--right">

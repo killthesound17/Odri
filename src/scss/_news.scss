@@ -129,7 +129,7 @@ margin: 0 auto;
   flex-wrap: wrap;
 }
 .grid-item {
-  width: 24.8%;
+  width: 24.7%;
   @media (max-width: 599px) {
     width: 100%;
   }
@@ -140,7 +140,13 @@ margin: 0 auto;
     }
   }
   &--med {
-    width: 33.2%;
+    width: 33.1%;
+    @media (max-width: 599px) {
+      width: 100%;
+    }
+  }
+  &--five {
+    width: 19.7%;
     @media (max-width: 599px) {
       width: 100%;
     }

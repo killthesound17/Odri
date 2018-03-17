@@ -50,15 +50,23 @@
                 <li class="model-options__option model-options__option--rus">Возраст</li>
               </ul>
               <ul class="option-values">
-                <li class="option-values__value">126cm</li>
-                <li class="option-values__value">58cm</li>
-                <li class="option-values__value">51cm</li>
+                <li class="option-values__value">130cm</li>
                 <li class="option-values__value">60cm</li>
+                <li class="option-values__value">55cm</li>
+                <li class="option-values__value">72cm</li>
                 <li class="option-values__value">19</li>
-                <li class="option-values__value">BLONDE</li>
-                <li class="option-values__value">GREEN</li>
-                <li class="option-values__value">8</li>
+                <li class="option-values__value">блонд</li>
+                <li class="option-values__value">зеленые</li>
+                <li class="option-values__value">9</li>
               </ul>
+            </div>
+            <div class="contest-section">
+              <h3 class="contest-section__name">Конкурсы</h3>
+              <ul class="contest-section__list">
+                  <li class="contest-section__listitem"><span class="check"></span> Титул "Grand Prix", Golden Talent of Ukraine</li>
+                  <li class="contest-section__listitem"><span class="check"></span> Титул "Королева", Golden Crown of Ukraine</li>
+                  <li class="contest-section__listitem"><span class="check"></span> Титул "Кришталева Царівна 2017"</li>
+              </u>
             </div>
           </div>
 
@@ -71,6 +79,7 @@
               <div class="model-slide"> <img src="../src/img/children/Antonina/IMG_1555.jpg" alt="" class="model-slide__photo">  </div>
               <div class="model-slide"> <img src="../src/img/children/Antonina/IMG_15571.JPG" alt="" class="model-slide__photo">  </div>
               <div class="model-slide"> <img src="../src/img/children/Antonina/IMG_15771.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/Antonina/IMG_0552Tonia.jpg" alt="" class="model-slide__photo">  </div>
             </div>
             <div class="slider-buttons slider-buttons--right">
                 <!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i> -->

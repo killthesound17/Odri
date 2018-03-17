@@ -68,6 +68,7 @@
             <div class="model-slide"> <img src="../src/img/children/Liza/IMG_1123.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Liza/IMG_1129.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Liza/IMG_1193.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Liza/IMG_0629Liza.jpg" alt="" class="model-slide__photo">  </div>
 
 
           </div>

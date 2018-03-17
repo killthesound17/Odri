@@ -121,9 +121,10 @@
   font-family: $head-font;
   text-transform: uppercase;
   font-weight: 400;
-  &--rus {
-    font-family: $text-font;
-  }
+  // &--title {
+  //   font-family: $text-font;
+  //   width: 30%;
+  // }
   &__option {
     padding: 20px 0;
     width: 80%;
@@ -145,8 +146,34 @@
   }
 }
 
+.contest-section {
+  width: 100%;
+  &__name {
+    font-family: $head-font;
+    text-transform: uppercase;
+    color: #252525;
+  }
+  &__list {
+  }
+  &__listitem {
+    font-family: $head-font;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #454545;
+    padding: 5px 0;
+  }
+}
+.check::before {
+  content: '\f058';
+  font-family: $awesome-reg;
+  color: rgb(188, 0, 255);
+}
+
 .model-slide__photo {
   filter: grayscale(100%);
+  transition: all 0.3s ease-in;
 }
 .model-slide__photo:hover {
   filter: grayscale(0%);

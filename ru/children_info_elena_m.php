@@ -60,18 +60,26 @@
                 <li class="option-values__value">9</li>
               </ul>
             </div>
+            <div class="contest-section">
+              <h3 class="contest-section__name">Конкурсы</h3>
+              <ul class="contest-section__list">
+                  <li class="contest-section__listitem"><span class="check"></span> Титул "Королева", Golden Crown of Ukraine</li>
+
+              </u>
+            </div>
           </div>
           <div class="model-photos">
             <div class="slider-buttons slider-buttons--left">
             </div>
           <div class="model-slider">
-            <div class="model-slide"> <img src="../src/img/children/LenaM/IMG_13051.JPG" alt="" class="model-slide__photo">  </div>
-            <div class="model-slide"> <img src="../src/img/children/LenaM/IMG_13101.JPG" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/LenaM/IMG_13051.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/LenaM/IMG_13101.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/LenaM/IMG_1328.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/LenaM/IMG_1408.jpg" alt="" class="model-slide__photo">  </div>
-            <div class="model-slide"> <img src="../src/img/children/LenaM/IMG_14611.JPG" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/LenaM/IMG_14611.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/LenaM/IMG_14671.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/LenaM/IMG_1479.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/LenaM/IMG_0750Lena.jpg" alt="" class="model-slide__photo">  </div>
           </div>
           <div class="slider-buttons slider-buttons--right">
               <!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i> -->

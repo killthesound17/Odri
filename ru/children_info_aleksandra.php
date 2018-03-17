@@ -59,6 +59,12 @@
                 <li class="option-values__value">7</li>
               </ul>
             </div>
+            <div class="contest-section">
+              <h3 class="contest-section__name">Конкурсы</h3>
+              <ul class="contest-section__list">
+                  <li class="contest-section__listitem"><span class="check"></span> Титул "Принцесса", Golden Crown of Ukraine</li>
+              </u>
+            </div>
           </div>
           <div class="model-photos">
             <div class="slider-buttons slider-buttons--left">

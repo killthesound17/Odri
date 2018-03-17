@@ -36,13 +36,51 @@
       <div class="container">
         <h1 class="pagename pagename--rus">Новости</h1>
         <article class="odri-article">
+          <img src="../src/img/articles/skakun-fashion/IMG_0414.jpg" alt="" class="odri-article__img">
+          <h2 class="odri-article__heading">Съемка лукбука новой коллекции Владиславы Скакун</h2>
+          <img src="../src/img/articles" alt="" class="odri-article__img odri-article__img--right">
+          <p class="odri-article__date">Опубликовано: 2018/02/21, автор: Полина Платонова</p>
+          <p class="odri-article__text">Все соскучились по теплу, сочным краскам и насыщенным событиями дням. </p>
+          <p class="odri-article__text">Владислава Скакун знает об этом, и пусть она не может приблизить наступление весны, зато создала невероятно яркую весеннюю коллекцию детских сарафанов. </p>
+          <p class="odri-article__text">Именно то, что нужно для весны!</p>
+          <p class="odri-article__text">Наши чудесные модели: Елена, Антонина, Ангелина, Елизавета, Ирина, Наташа, Мирослава в сьемке лукбука новой коллекции Владиславы Скакун.</p>
+          <p class="odri-article__text">Фотограф - Вадим Врублевский.</p>
+          <p class="odri-article__text">Для подробной информации как стать частью нашей команды победителей <a href="contacts.php" class="contest-textinfo__link ">свяжитесь с нами</a>.</p>
+          <div class="img-grid">
+
+            <div class="grid-item grid-item--five">
+              <img src="../src/img/articles/skakun-fashion/IMG_0731.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item grid-item--five">
+              <img src="../src/img/articles/skakun-fashion/IMG_0685.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item grid-item--five">
+              <img src="../src/img/articles/skakun-fashion/IMG_0629.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item grid-item--five">
+              <img src="../src/img/articles/skakun-fashion/IMG_0575.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item grid-item--five">
+              <img src="../src/img/articles/skakun-fashion/IMG_0552.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item grid-item--horiz">
+              <img src="../src/img/articles/skakun-fashion/IMG_0414.jpg" alt="" class="grid-item__img">
+            </div>
+            <div class="grid-item grid-item--horiz">
+              <img src="../src/img/articles/skakun-fashion/IMG_0491.jpg" alt="" class="grid-item__img">
+            </div>
+
+          </div>
+        </article>
+        <hr>
+        <article class="odri-article">
           <img src="../src/img/articles/newbelgorod/27798342_152212122131671_3165942132362547368_o.jpg" alt="" class="odri-article__img">
           <h2 class="odri-article__heading">Новые лица Odri Models Management</h2>
           <img src="../src/img/articles" alt="" class="odri-article__img odri-article__img--right">
-          <p class="odri-article__date">Опубликовано: 2017/02/19, автор: Полина Платонова</p>
-          <p class="odri-article__text">Знакомим Вас с новыми лицами Odri models management.</p>
+          <p class="odri-article__date">Опубликовано: 2018/02/19, автор: Полина Платонова</p>
+          <p class="odri-article__text">Знакомим Вас с новыми лицами Odri Models Management.</p>
           <p class="odri-article__text">К нам присоединились замечательные ребята из Белгорода-Днестровского.</p>
-          <p class="odri-article__text">Юные принцы и принцессы ответственно подходят к подготовке и скоро будут покорять самые высокие вершины модельного мира.</p>
+          <p class="odri-article__text">Они очень ответственно подходят к подготовке и скоро будут покорять самые высокие вершины модельного мира.</p>
           <p class="odri-article__text">Аккерман может гордится своими маленькими талантами.</p>
           <p class="odri-article__text">Для подробной информации как стать частью нашей команды победителей <a href="contacts.php" class="contest-textinfo__link ">свяжитесь с нами</a>.</p>
           <div class="img-grid">
@@ -83,9 +121,10 @@
           <img class="odri-article__sub-img" src="../src/img/articles/victoriia-belle/main-vb_DSC04736.jpg" alt="">
           </div> -->
         </article>
+        <hr>
         <article class="odri-article">
           <h2 class="odri-article__heading">Новая съемка загадочной Анны</h2>
-          <p class="odri-article__date">Опубликовано: 2017/02/09, автор: Полина Платонова</p>
+          <p class="odri-article__date">Опубликовано: 2018/02/19, автор: Полина Платонова</p>
           <div class="sub-img">
           <img class="odri-article__sub-img odri-article__sub-img--mod" src="../src/img/articles/new_photoshoot/anna_new.jpg" alt="">
           <img class="odri-article__sub-img odri-article__sub-img--mod" src="../src/img/articles/new_photoshoot/anna_new2.jpg" alt="">
@@ -96,7 +135,7 @@
         <article class="odri-article">
 
           <h2 class="odri-article__heading">Новая сьемка куколки Лены</h2>
-          <p class="odri-article__date">Опубликовано: 2017/02/19, автор: Полина Платонова</p>
+          <p class="odri-article__date">Опубликовано: 2018/02/19, автор: Полина Платонова</p>
           <div class="sub-img">
 
           <img class="odri-article__sub-img odri-article__sub-img--mod" src="../src/img/articles/new_photoshoot/lena_new.jpg" alt="">
@@ -109,7 +148,7 @@
         <article class="odri-article">
 
           <h2 class="odri-article__heading">Первая съёмка Андрея</h2>
-          <p class="odri-article__date">Опубликовано: 2017/02/19, автор: Полина Платонова</p>
+          <p class="odri-article__date">Опубликовано: 2018/02/19, автор: Полина Платонова</p>
 
           <div class="sub-img">
           <img class="odri-article__sub-img" src="../src/img/children/Andrey/IMG_0186.jpg" alt="">
@@ -125,7 +164,7 @@
 
           <h2 class="odri-article__heading">Съемка для Victoria Belle Boutique</h2>
           <img src="../src/img/articles" alt="" class="odri-article__img odri-article__img--right">
-          <p class="odri-article__date">Опубликовано: 2017/02/11, автор: Полина Платонова</p>
+          <p class="odri-article__date">Опубликовано: 2018/02/11, автор: Полина Платонова</p>
           <p class="odri-article__text">Чудесная съемка в одежде Victoria Belle с нашими звёздочками Евой, Ириной и Викторией.</p>
           <p class="odri-article__text">Небольшой фотоотчёт о том как это было.</p>
           <p class="odri-article__text">Куколки освещали площадку своими улыбками, эмоциями, позитивным настроением, и покорили профессиональным подходом к работе.</p>
@@ -145,7 +184,7 @@
 
           <h2 class="odri-article__heading">Odri Models впервые в Белгороде-Днестровском</h2>
           <img src="../src/img/articles/akkerman/IMG_9741.jpg" alt="" class="odri-article__img odri-article__img--right">
-          <p class="odri-article__date">Опубликовано: 2017/02/07, автор: Полина Платонова</p>
+          <p class="odri-article__date">Опубликовано: 2018/02/07, автор: Полина Платонова</p>
 
           <p class="odri-article__text">Прошлые выходные модельная школа Odri Models провела в Белгороде-Днестровском. Здесь мы организовали несколько пробных занятий для разных возрастных групп.</p>
           <p class="odri-article__text">И теперь рады предоставить небольшой фотоотчёт и сообщить что будем проводить занятия и тут!</p>
@@ -163,7 +202,7 @@
         <article class="odri-article">
 
           <h2 class="odri-article__heading">Первая фотосессия победительницы "Мини Мисс Бессарабия"</h2>
-          <p class="odri-article__date">Опубликовано: 2017/02/07, автор: Полина Платонова</p>
+          <p class="odri-article__date">Опубликовано: 2018/02/07, автор: Полина Платонова</p>
 
           <p class="odri-article__text">Победительница конкурса "Мини Мисс Бессарабия", очаровательная Виктория отснялась в своей первой профессиональной фотосессии.</p>
           <p class="odri-article__text">Желаем юной красавице новых побед!</p>
@@ -181,7 +220,7 @@
           <img src="../src/img/articles/lessons/IMG_1057.jpg" alt="" class="odri-article__img">
           <img src="../src/img/articles/lessons/002.jpg" alt="" class="odri-article__img odri-article__img--right">
           <h2 class="odri-article__heading">Занятия в Odri Models</h2>
-          <p class="odri-article__date">Опубликовано: 2017/02/07, автор: Полина Платонова</p>
+          <p class="odri-article__date">Опубликовано: 2018/02/07, автор: Полина Платонова</p>
 
           <p class="odri-article__text">А вот так проходят занятия в нашей школе. Маленькие принцессы готовятся стать настоящими звёздами!</p>
           <p class="odri-article__text">Будем рады увидеть вас на пробном бесплатном занятии!</p>

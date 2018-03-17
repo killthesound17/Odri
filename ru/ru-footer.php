@@ -10,9 +10,9 @@
         </div>
         <div class="contactus">
             <div class="socialmedia">
-                <a href="" class="socialmedia__link"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                <a href="" class="socialmedia__link"><i class="fa fa-vk" aria-hidden="true"></i></a>
-                <a href="" class="socialmedia__link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/odriMM/" class="socialmedia__link"><span class="fb"></span></a>
+                <a href="" class="socialmedia__link"><span class="vk"></span></a>
+                <a href="https://www.instagram.com/odri_models/" class="socialmedia__link"><span class="insta"></span></a>
             </div>
             <!-- <span class="contactus__text">Subscribe Us</span>
             <form action="" class="subscribeform">

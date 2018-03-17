@@ -65,7 +65,7 @@
         <div class="minimiss-photos__section">
          <img src="../src/img/contest/dudchenko.jpg" alt="" class="minimiss-photos__img"></div>
         <div class="minimiss-photos__section">
-         <img src="../src/img/contest/mini-model-unknown.jpg" alt="" class="minimiss-photos__img">    </div>
+         <img src="../src/img/contest/georgieva_viktoriia_contest.jpg" alt="" class="minimiss-photos__img">    </div>
         <div class="minimiss-photos__section">
          <img src="../src/img/contest/mini-model-unknown.jpg" alt="" class="minimiss-photos__img">
          </div>

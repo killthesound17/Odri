@@ -50,15 +50,21 @@
                 <li class="model-options__option model-options__option--rus">Возраст</li>
               </ul>
               <ul class="option-values">
-                <li class="option-values__value">120cm</li>
+                <li class="option-values__value">126cm</li>
                 <li class="option-values__value">56cm</li>
                 <li class="option-values__value">51cm</li>
                 <li class="option-values__value">64cm</li>
                 <li class="option-values__value">31</li>
-                <li class="option-values__value">brown</li>
-                <li class="option-values__value">green</li>
-                <li class="option-values__value">6</li>
+                <li class="option-values__value">русые</li>
+                <li class="option-values__value">зелёные</li>
+                <li class="option-values__value">7</li>
               </ul>
+            </div>
+            <div class="contest-section">
+              <h3 class="contest-section__name">Конкурсы</h3>
+              <ul class="contest-section__list">
+                  <li class="contest-section__listitem"><span class="check"></span> Титул "Кришталева Царівна 2017"</li>
+              </u>
             </div>
           </div>
           <div class="model-photos">
@@ -68,7 +74,7 @@
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_1806.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_1846.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_1930.jpg" alt="" class="model-slide__photo">  </div>
-            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_20251.JPG" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/IMG_20251.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8292.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8298.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Eva/IMG_8335.jpg" alt="" class="model-slide__photo">  </div>

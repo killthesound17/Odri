@@ -50,14 +50,14 @@
                 <li class="model-options__option model-options__option--rus">Возраст</li>
               </ul>
               <ul class="option-values">
-                <li class="option-values__value">-</li>
-                <li class="option-values__value">-</li>
-                <li class="option-values__value">-</li>
-                <li class="option-values__value">-</li>
-                <li class="option-values__value">-</li>
-                <li class="option-values__value">-</li>
-                <li class="option-values__value">-</li>
-                <li class="option-values__value">-</li>
+                <li class="option-values__value">145</li>
+                <li class="option-values__value">67</li>
+                <li class="option-values__value">59</li>
+                <li class="option-values__value">75</li>
+                <li class="option-values__value">37</li>
+                <li class="option-values__value">русые</li>
+                <li class="option-values__value">зеленые</li>
+                <li class="option-values__value">9</li>
               </ul>
             </div>
           </div>
@@ -68,6 +68,7 @@
             <div class="model-slide"> <img src="../src/img/children/Miroslava/IMG_1678.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Miroslava/IMG_1734.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Miroslava/IMG_1775.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Miroslava/IMG_0671Miroslava.jpg" alt="" class="model-slide__photo">  </div>
 
           </div>
           <div class="slider-buttons slider-buttons--right">

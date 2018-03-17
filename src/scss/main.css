@@ -1,8 +1,18 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Font Awesome Reg';
+  /* Имя шрифта */
+  src: url("../fonts/Font_Awesome_5_Free-Regular-400.otf");
+  /* Путь к файлу со шрифтом */ }
+@font-face {
+  font-family: 'Font Awesome Reg Brands';
+  /* Имя шрифта */
+  src: url("../fonts/Font_Awesome_5_Brands-Regular-400.otf ");
+  /* Путь к файлу со шрифтом */ }
 body {
   background-image: url("../img/bgr-pic.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -256,7 +266,7 @@ button, a {
       margin: 0 auto;
       flex-direction: column; } }
   .minimiss-photos__section {
-    width: 33%; }
+    width: 24.5%; }
     @media (max-width: 699px) {
       .minimiss-photos__section {
         width: 100%; } }
@@ -390,21 +400,25 @@ button, a {
 
 .model {
   width: 24.5%;
-  padding-top: 10px;
+  margin-top: 10px;
   position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
   filter: grayscale(100%); }
   @media (max-width: 900px) {
     .model {
-      width: 32%;
-      padding-top: 5px; } }
+      width: 32%; } }
   @media (max-width: 599px) {
     .model {
-      width: 48%;
-      padding-top: 5px; } }
+      width: 48%; } }
   .model__imgprev {
     width: 100%;
     height: 100%;
-    display: block; }
+    display: block;
+    transition: all 0.3s ease; }
+    .model__imgprev:hover {
+      transform: scale(1.1);
+      transition: all 0.3s ease; }
   .model__name {
     display: block;
     width: 100%;
@@ -423,7 +437,7 @@ button, a {
       font-family: "Roboto", sans-serif; }
   .model:hover {
     filter: grayscale(0%);
-    transition: all 0.3s ease-in; }
+    transition: all 0.3s ease; }
 
 footer {
   background-color: #454545; }
@@ -499,7 +513,8 @@ footer {
   .socialmedia__link {
     margin-left: 10px;
     font-size: 24px;
-    color: white; }
+    color: white;
+    text-decoration: none; }
     .socialmedia__link:hover {
       color: #bc00ff; }
     .socialmedia__link--mod {
@@ -511,6 +526,18 @@ footer {
     color: #454545;
     text-align: left;
     margin-right: 10px; }
+
+.fb::before {
+  content: '\f39e';
+  font-family: "Font Awesome Reg Brands"; }
+
+.vk::before {
+  content: '\f189';
+  font-family: "Font Awesome Reg Brands"; }
+
+.insta::before {
+  content: '\f16d';
+  font-family: "Font Awesome Reg Brands"; }
 
 .model-profile {
   padding: 35px 0;
@@ -603,8 +630,6 @@ footer {
   font-family: "Alegreya Sans SC", sans-serif;
   text-transform: uppercase;
   font-weight: 400; }
-  .model-options--rus {
-    font-family: "Roboto", sans-serif; }
   .model-options__option {
     padding: 20px 0;
     width: 80%;
@@ -622,8 +647,29 @@ footer {
     padding: 20px 0;
     border-bottom: 1px solid transparent; }
 
+.contest-section {
+  width: 100%; }
+  .contest-section__name {
+    font-family: "Alegreya Sans SC", sans-serif;
+    text-transform: uppercase;
+    color: #252525; }
+  .contest-section__listitem {
+    font-family: "Alegreya Sans SC", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #454545;
+    padding: 5px 0; }
+
+.check::before {
+  content: '\f058';
+  font-family: "Font Awesome Reg";
+  color: #bc00ff; }
+
 .model-slide__photo {
-  filter: grayscale(100%); }
+  filter: grayscale(100%);
+  transition: all 0.3s ease-in; }
 
 .model-slide__photo:hover {
   filter: grayscale(0%);
@@ -985,7 +1031,7 @@ input[type="radio"] {
   flex-wrap: wrap; }
 
 .grid-item {
-  width: 24.8%; }
+  width: 24.7%; }
   @media (max-width: 599px) {
     .grid-item {
       width: 100%; } }
@@ -995,9 +1041,14 @@ input[type="radio"] {
       .grid-item--horiz {
         width: 100%; } }
   .grid-item--med {
-    width: 33.2%; }
+    width: 33.1%; }
     @media (max-width: 599px) {
       .grid-item--med {
+        width: 100%; } }
+  .grid-item--five {
+    width: 19.7%; }
+    @media (max-width: 599px) {
+      .grid-item--five {
         width: 100%; } }
   .grid-item__img {
     width: 100%; }

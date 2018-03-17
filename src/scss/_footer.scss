@@ -82,6 +82,7 @@ text-align: right;
     margin-left: 10px;
     font-size: 24px;
     color: white;
+    text-decoration: none;
     &:hover {
       color: $hover-color;
     }
@@ -98,4 +99,17 @@ text-align: right;
     text-align:left;
     margin-right: 10px;
   }
+}
+
+.fb::before {
+  content: '\f39e';
+  font-family: $awesome-brands;
+}
+.vk::before {
+  content: '\f189';
+  font-family: $awesome-brands;
+}
+.insta::before {
+  content: '\f16d';
+  font-family: $awesome-brands;
 }
