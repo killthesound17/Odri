@@ -89,6 +89,8 @@
             <div class="model-slide"> <img src="../src/img/children/Eva/DSC04859.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Eva/DSC04872.jpg" alt="" class="model-slide__photo">  </div>
             <div class="model-slide"> <img src="../src/img/children/Eva/DSC04905.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/photo_2018-03-09_13-19-33.jpg" alt="" class="model-slide__photo">  </div>
+            <div class="model-slide"> <img src="../src/img/children/Eva/photo_2018-03-09_13-19-34.jpg" alt="" class="model-slide__photo">  </div>
 
           </div>
           <div class="slider-buttons slider-buttons--right">

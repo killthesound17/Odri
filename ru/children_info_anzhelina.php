@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Roboto&amp;subset=cyrillic" rel="stylesheet">
-
     <link rel="stylesheet" href="../src/css/normalize.css">
     <link rel="stylesheet" href="../src/css/slick.css">
     <link rel="stylesheet" href="../src/css/main.css">
@@ -15,7 +14,7 @@
     </script>
 
 
-    <title>Андрей - Дети - ODRI Models Management</title>
+    <title>Анжелина - Дети - ODRI Models Management</title>
 </head>
 
 <body>
@@ -32,7 +31,7 @@
         <div class="container">
         <section class="model-profile">
           <div class="model-info">
-            <h2 class="model-info__name model-info__name--rus">Андрей</h2>
+            <h2 class="model-info__name model-info__name--rus">Анжелина</h2>
             <div class="options">
               <ul class="model-options">
                 <li class="model-options__option model-options__option--rus">Рост</li>
@@ -45,35 +44,30 @@
                 <li class="model-options__option model-options__option--rus">Возраст</li>
               </ul>
               <ul class="option-values">
-                <li class="option-values__value">153</li>
+                <li class="option-values__value">150cm</li>
+                <li class="option-values__value">66cm</li>
+                <li class="option-values__value">58cm</li>
+                <li class="option-values__value">75cm</li>
+                <li class="option-values__value">36.5</li>
+                <li class="option-values__value option-values__value--rus">шатен</li>
+                <li class="option-values__value option-values__value--rus">карие</li>
                 <li class="option-values__value">-</li>
-                <li class="option-values__value">-</li>
-                <li class="option-values__value">-</li>
-                <li class="option-values__value">38</li>
-                <li class="option-values__value">русые</li>
-                <li class="option-values__value">голубые</li>
-                <li class="option-values__value">14</li>
               </ul>
             </div>
           </div>
-
           <div class="model-photos">
             <div class="slider-buttons slider-buttons--left">
             </div>
             <div class="model-slider">
-              <div class="model-slide"> <img src="../src/img/children/Andrey/IMG_0186.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide model-slide--mod"> <img src="../src/img/children/Andrey/IMG_0208.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide"> <img src="../src/img/children/Andrey/IMG_0273.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide"> <img src="../src/img/children/Andrey/IMG_0280.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide model-slide--mod"> <img src="../src/img/children/Andrey/IMG_0332.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide model-slide--mod"> <img src="../src/img/children/Andrey/photo_2018-03-18_22-19-53.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide model-slide--mod"> <img src="../src/img/children/Andrey/photo_2018-03-18_22-53-44.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide model-slide--mod"> <img src="../src/img/children/Andrey/photo_2018-03-18_22-53-45.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/anzhelina/IMG_0034.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/anzhelina/IMG_0053.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/anzhelina/IMG_0104.jpg" alt="" class="model-slide__photo">  </div>
             </div>
             <div class="slider-buttons slider-buttons--right">
                 <!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i> -->
             </div>
           </div>
+
 
           <div class=""></div>
 

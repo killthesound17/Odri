@@ -67,6 +67,14 @@
     <img src="../src/img/children/Miroslava/IMG_1775.jpg" alt="" class="model__imgprev">
     <a href="children_info_miroslava.php" class="model__name model__name--rus">Мирослава</a>
   </div>
+  <div class="model z-r">
+    <img src="../src/img/children/AngelinaT/IMG_9872.jpg" alt="" class="model__imgprev">
+    <a href="children_info_angelina-t.php" class="model__name model__name--rus">Ангелина Т.</a>
+  </div>
+  <div class="model z-r">
+    <img src="../src/img/children/Natasha/IMG_6240.jpg" alt="" class="model__imgprev">
+    <a href="children_info_natashag.php" class="model__name model__name--rus">Наталья</a>
+  </div>
   <div class="model a-j">
     <img src="../src/img/children/ValeriiaCh/IMG_9536.jpg" alt="" class="model__imgprev">
     <a href="children_info_valeriyac.php" class="model__name model__name--rus">Валерия Ч.</a>
@@ -88,9 +96,18 @@
     <a href="children_info_irina.php" class="model__name">Ирина</a>
   </div>
   <div class="model s-z">
+    <img src="../src/img/children/anzhelina/IMG_0034.jpg" alt="" class="model__imgprev">
+    <a href="children_info_anzhelina.php" class="model__name">Анжелина</a>
+  </div>
+  <div class="model s-z">
+    <img src="../src/img/children/evelina/IMG_9961.jpg" alt="" class="model__imgprev">
+    <a href="children_info_evelina.php" class="model__name">Эвелина</a>
+  </div>
+  <div class="model s-z">
     <img src="../src/img/children/Kim/IMG_4918-Copy.jpg" alt="" class="model__imgprev">
     <a href="children_info_kim.php" class="model__name">Ким</a>
   </div>
+
   <div class="model s-z">
     <img src="../src/img/children/Kira/IMG_5432.jpg" alt="" class="model__imgprev">
     <a href="children_info_kira.php" class="model__name">Кира</a>
@@ -107,10 +124,9 @@
     <img src="../src/img/children/Andrey/IMG_0332.jpg" alt="" class="model__imgprev">
     <a href="children_info_andrey.php" class="model__name">Андрей</a>
   </div>
-  <div class="model s-z">
-  </div>
-  <div class="model s-z">
-  </div>
+  <div class="model s-z">  </div>
+  <div class="model s-z">  </div>
+
 
 </section>
 

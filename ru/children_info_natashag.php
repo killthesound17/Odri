@@ -15,12 +15,17 @@
     </script>
 
 
-    <title>Андрей - Дети - ODRI Models Management</title>
+    <title>Наталья - Дети - ODRI Models Management</title>
 </head>
 
 <body>
     <?php include 'preloader.php' ?>
-
+    <div class="container">
+      <div class="lang-buttons">
+        <a href="../en/children_info_antonina.php">EN</a>
+        <a href="#">RU</a>
+      </div>
+    </div>
   <header>
       <?php
       include 'ru-header.html' ?>
@@ -32,7 +37,7 @@
         <div class="container">
         <section class="model-profile">
           <div class="model-info">
-            <h2 class="model-info__name model-info__name--rus">Андрей</h2>
+            <h2 class="model-info__name model-info__name--rus">Наталья</h2>
             <div class="options">
               <ul class="model-options">
                 <li class="model-options__option model-options__option--rus">Рост</li>
@@ -45,15 +50,23 @@
                 <li class="model-options__option model-options__option--rus">Возраст</li>
               </ul>
               <ul class="option-values">
-                <li class="option-values__value">153</li>
+                <li class="option-values__value">115cm</li>
+                <li class="option-values__value">56cm</li>
+                <li class="option-values__value">53cm</li>
+                <li class="option-values__value">60cm</li>
                 <li class="option-values__value">-</li>
-                <li class="option-values__value">-</li>
-                <li class="option-values__value">-</li>
-                <li class="option-values__value">38</li>
-                <li class="option-values__value">русые</li>
-                <li class="option-values__value">голубые</li>
-                <li class="option-values__value">14</li>
+                <li class="option-values__value">блонд</li>
+                <li class="option-values__value">зеленые</li>
+                <li class="option-values__value">6</li>
               </ul>
+            </div>
+            <div class="contest-section">
+              <h3 class="contest-section__name">Конкурсы</h3>
+              <ul class="contest-section__list">
+                  <li class="contest-section__listitem"><span class="check"></span> Мини-мисс зрительских симпатий, конкурс "Мини-мисс Бессарабия 2017"</li>
+                  <li class="contest-section__listitem"><span class="check"></span> Титул "Grand Prix", Golden Talent of Ukraine</li>
+                  <li class="contest-section__listitem"><span class="check"></span> Титул "Кришталева Царівна 2017"</li>
+              </u>
             </div>
           </div>
 
@@ -61,19 +74,16 @@
             <div class="slider-buttons slider-buttons--left">
             </div>
             <div class="model-slider">
-              <div class="model-slide"> <img src="../src/img/children/Andrey/IMG_0186.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide model-slide--mod"> <img src="../src/img/children/Andrey/IMG_0208.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide"> <img src="../src/img/children/Andrey/IMG_0273.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide"> <img src="../src/img/children/Andrey/IMG_0280.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide model-slide--mod"> <img src="../src/img/children/Andrey/IMG_0332.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide model-slide--mod"> <img src="../src/img/children/Andrey/photo_2018-03-18_22-19-53.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide model-slide--mod"> <img src="../src/img/children/Andrey/photo_2018-03-18_22-53-44.jpg" alt="" class="model-slide__photo">  </div>
-              <div class="model-slide model-slide--mod"> <img src="../src/img/children/Andrey/photo_2018-03-18_22-53-45.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/Natasha/IMG_6240.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/Natasha/IMG_8050.jpg" alt="" class="model-slide__photo">  </div>
+              <div class="model-slide"> <img src="../src/img/children/Natasha/IMG_8151.jpg" alt="" class="model-slide__photo">  </div>
+
             </div>
             <div class="slider-buttons slider-buttons--right">
                 <!-- <i class="fa fa-angle-double-right" aria-hidden="true"></i> -->
             </div>
           </div>
+
 
           <div class=""></div>
 
