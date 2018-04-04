@@ -51,12 +51,12 @@
           <h1 class="contest-textinfo__heading">
           Конкурс от Odri Models
           </h1>
-          <p class="contest-textinfo__desc">Поздравляем победительницу февральского конкурса, Викторию Георгиеву! </p>
-          <p class="contest-textinfo__desc">За малышку отдали 53.3% голосов.</p>
-          <p class="contest-textinfo__desc">Корона и диплом уже готовы к поездке к своей обладательнице в с.Зоря.</p>
-          <p class="contest-textinfo__desc">На втором месте с небольшим отрывом расположилась Ангелина Терзи, она набрала 41.8% голосов. "Бронзу" в нашем голосовании получает Кристина Залевская, за неё проголосавало 4.9%. Девочки так же получают поощрительные призы.</p>
+          <p class="contest-textinfo__desc">Первый месяц весны уже позади, а у нас появилась первая весенняя Mini Model!</p>
+          <p class="contest-textinfo__desc">Поздравляем победительницу мартовского конкурса, Марию Гарбузову (г.Житомир)! </p>
+          <p class="contest-textinfo__desc">Красотка набрала 42.4% голосов и получает главную корону.</p>
+          <p class="contest-textinfo__desc">Не обойдём стороной других участниц конкурса - Дарью Богун, Дарину Лазаренко и Дарью Жаркову. Девочки так же получают поощрительные призы. </p>
           <p class="contest-textinfo__desc"><a href="contest_mini_model.php" class="contest-textinfo__link">Подробнее о конкурсе и результатах</a></p>
-          <p class="contest-textinfo__desc">Пришёл март, а значит настало время представить Вам наших прекрасный номинанток Mini Model of March.</p>
+          <p class="contest-textinfo__desc">А сейчас, представляем вашему вниманию номинанток на титул Mini Model of April.</p>
         </div>
         <div class="contest-photo">
           <img src="../src/img/contest/contast_logo.png" alt="" class="contest-photo__crownimg">
@@ -65,17 +65,17 @@
       </div>
       <div class="minimiss-photos">
         <div class="minimiss-photos__section">
-         <img src="../src/img/contest/bogun_dasha.jpg" alt="" class="minimiss-photos__img"></div>
+         <img src="../src/img/contest/evelina-alkhimova.jpg" alt="" class="minimiss-photos__img"></div>
          <div class="minimiss-photos__section">
-          <img src="../src/img/contest/garbuzova_maria.jpg" alt="" class="minimiss-photos__img"></div>
+          <img src="../src/img/contest/nataliia-gladun.jpg" alt="" class="minimiss-photos__img"></div>
         <div class="minimiss-photos__section">
-         <img src="../src/img/contest/Lazarenko_dasha.jpg" alt="" class="minimiss-photos__img">    </div>
+         <img src="../src/img/contest/valeriia-pechnikova.jpg" alt="" class="minimiss-photos__img">    </div>
         <div class="minimiss-photos__section">
-         <img src="../src/img/contest/zharkova_daria.jpg" alt="" class="minimiss-photos__img">
+         <img src="../src/img/contest/violetta-liubchak.jpg" alt="" class="minimiss-photos__img">
          </div>
       </div>
       <div class="polesection">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScW7kfx7MVPVzVyxJ8fNm205a8fdvCKQCh1DBM0-EE1XRl4vw/viewform?embedded=true" width="500" height="900" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe></div>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfxRy1c_c_1LFN3HjLscOsIi3aFXFPFhWajb5-spRvvEzKJsQ/viewform?embedded=true" width="500" height="900" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe></div>
     </div>
 
 
